@@ -1,0 +1,23 @@
+{
+  "name": "keto",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boshimoto/keto.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boshimoto/keto/issues"
+  },
+  "homepage": "https://github.com/boshimoto/keto#readme",
+  "description": "",
+  "dependencies": {
+    "lit": "^2.4.1"
+  }
+}
