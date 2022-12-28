@@ -1,107 +1,87 @@
-const vegetable = [
+export const data = [
+
+        // vegetable
     {
+        type: 'vegetable',
         name: 'spinach',
-        net: 1,
-        total: 3.5,
-        fiber: 2.5,
+        calories: 1
     },
     {
+        type: 'vegetable',
         name: 'avocado',
-        net: 2,
-        total: 9,
-        fiber: 7,
+        calories: 2
     },
     {
+        type: 'vegetable',
         name: 'tomato',
-        net: 3,
-        total: 4,
-        fiber: 1,
+        calories: 3
     },
-];
 
-const fruit = [
+        // fruit
     {
+        type: 'fruit',
         name: 'apple',
-        net: 12,
-        total: 14.5,
-        fiber: 2.5,
+        calories: 12
     },
     {
+        type: 'fruit',
         name: 'mango',
-        net: 13,
-        total: 1.5,
-        fiber: 14.5,
+        calories: 13
     },
     {
+        type: 'fruit',
         name: 'orange',
-        net: 9,
-        total: 11.5,
-        fiber: 2.5,
+        calories: 9
     },
-];
 
-const dairy = [
+        // dairy
     {
+        type: 'dairy',
         name: 'cream cheese',
-        net: 5,
-        total: -1,
-        fiber: -1,
+        calories: 5
     },
     {
+        type: 'dairy',
         name: 'sour cream',
-        net: 4,
-        total: -1,
-        fiber: -1,
+        calories: 4
     },
     {
+        type: 'dairy',
         name: 'milk',
-        net: 13,
-        total: -1,
-        fiber: -1,
+        calories: 13
     },
-];
 
-const drink = [
+        // drink
     {
+        type: 'drink',
         name: 'kombucha',
-        net: 10,
-        total: -1,
-        fiber: -1,
+        calories: 10
     },
     {
+        type: 'drink',
         name: 'wine',
-        net: 2,
-        total: -1,
-        fiber: -1,
+        calories: 2
     },
     {
+        type: 'drink',
         name: 'water',
-        net: 0,
-        total: -1,
-        fiber: -1,
+        calories: 0
     },
-];
 
-const nut = [
+        // nut
     {
+        type: 'nut',
         name: 'almond',
-        net: 9,
-        total: -1,
-        fiber: -1,
+        calories: 9
     },
     {
+        type: 'nut',
         name: 'walnut',
-        net: 7,
-        total: -1,
-        fiber: -1,
+        calories: 7
     },
     {
+        type: 'nut',
         name: 'peanut',
-        net: 8,
-        total: -1,
-        fiber: -1,
+        calories: 8
     },
 ];
-
-
-export { vegetable, fruit, dairy, drink, nut};
