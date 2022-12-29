@@ -3,27 +3,27 @@ import { LitElement, html } from 'lit';
 export class CheckboxElement extends LitElement {
 
 	static properties = {
-		active: { type: Boolean, reflect: true },
+		checkbox: { type: Boolean },
 	};
 
 	constructor() {
 		super();
-		this.active = false;
+		this.checkbox = false;
 	}
 
 	render() {
 		return html`
 			<input
 			@click="${ () =>
-				(this.active = !this.active)
+				(this.checkbox = !this.checkbox)
 			}"
 			type="checkbox"
 			value="checkbox"
-			></input>
+			>
 
 			<label
 			for="checkbox"
-			>my checkbox element: ${ this.active }</label>
+			>my checkbox element: ${ this.checkbox }</label>
 		`;
 	}
 };

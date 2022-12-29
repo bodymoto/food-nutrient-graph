@@ -1,6 +1,6 @@
 export const data = [
 
-        // vegetable
+// vegetable
     {
         type: 'vegetable',
         name: 'spinach',
@@ -16,8 +16,7 @@ export const data = [
         name: 'tomato',
         calories: 3
     },
-
-        // fruit
+// fruit
     {
         type: 'fruit',
         name: 'apple',
@@ -33,8 +32,7 @@ export const data = [
         name: 'orange',
         calories: 9
     },
-
-        // dairy
+// dairy
     {
         type: 'dairy',
         name: 'cream cheese',
@@ -50,8 +48,7 @@ export const data = [
         name: 'milk',
         calories: 13
     },
-
-        // drink
+// drink
     {
         type: 'drink',
         name: 'kombucha',
@@ -67,8 +64,7 @@ export const data = [
         name: 'water',
         calories: 0
     },
-
-        // nut
+// nut
     {
         type: 'nut',
         name: 'almond',
