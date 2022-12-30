@@ -5,10 +5,11 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'main.js'
-  },
-    watch: true,
-    devtool: 'inline-source-map',
-  }
+    },
+  watch: true,
+  target: ["web", "es5"],
+  mode: 'development',
+  devtool: 'source-map',
   module: {
     rules: [
       {
@@ -22,4 +23,5 @@ module.exports = {
         }
       }
     ]
-  };
+  }
+};
