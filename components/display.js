@@ -6,22 +6,53 @@ export class DisplayElement extends LitElement {
 
 	static properties = {
 		data: { type: Array },
+		checked: { type: Boolean },
+		filteredData: { type: Array },
+		foodTypes: {},
 	};
 
 	constructor() {
 		super();
+
 		this.data = [];
+		this.filteredData = [];
+		this.foodTypes = {};
+
+		this.addEventListener('checked-event', (e) => {
+			this.checked = e.detail.myChecked; // boolean value
+			this.filtered();
+		});
+	}
+
+	filtered() {
+		if (this.checked === true) {
+			this.filteredData = this.data.filter((item) => {
+				return item.type === 'fruit';
+			});
+		} else { this.filteredData = this.data };
+	}
+
+	getFoodTypes() {
+		let foodTypes = {};
+		this.data.forEach((food) => foodTypes[food.type] = true);
+		return Object.keys(foodTypes);
+	}
+
+	willUpdate(changedProperties) {
+		// console.log(changedProperties);
+		this.foodTypes = this.getFoodTypes();
 	}
 
 	render() {
 	//render child components
 		return html`
+
+			${}
 			<checkbox-element>
 			</checkbox-element>
 
-			<table-element
-			.data=${ this.data }
-			></table-element>
+			<table-element .data=${ this.data } .filteredData=${ this.filteredData }>
+			</table-element>
 		`;
 	}
 };

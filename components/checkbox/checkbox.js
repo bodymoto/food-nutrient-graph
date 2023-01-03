@@ -3,29 +3,37 @@ import { LitElement, html } from 'lit';
 export class CheckboxElement extends LitElement {
 
 	static properties = {
-		checkbox: { type: Boolean },
+		checked: { type: Boolean },
 	};
 
 	constructor() {
 		super();
-		this.checkbox = false;
+		this.checked = false;
 	}
 
 	render() {
 		return html`
-			<input
-			@click="${ () =>
-				(this.checkbox = !this.checkbox)
-			}"
-			type="checkbox"
-			value="checkbox"
-			>
+			<input @click="${this.handleChecked}" type="checkbox" value="checkbox">
 
-			<label
-			for="checkbox"
-			>my checkbox element: ${ this.checkbox }</label>
+			<label for="checkbox">
+				Filter my data when true: ${this.checked} 
+			</label>
 		`;
 	}
+
+	handleChecked(event) {
+		// when clicked capture boolean value and send it up
+		this.checked = !this.checked;
+		let myChecked = this.checked;
+		const options = {
+			detail: { myChecked },
+			bubbles: true,
+			composed: true
+		};
+		this.dispatchEvent(new CustomEvent('checked-event', options));
+	}
+
+
 };
 
 customElements.define('checkbox-element', CheckboxElement);
