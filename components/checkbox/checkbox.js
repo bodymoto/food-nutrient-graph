@@ -4,36 +4,32 @@ export class CheckboxElement extends LitElement {
 
 	static properties = {
 		checked: { type: Boolean },
+		label: { type: String },
 	};
 
 	constructor() {
 		super();
 		this.checked = false;
+		this.label = '';
 	}
 
 	render() {
+		//this.renderRoot.host.attributes.for.nodeValue
 		return html`
-			<input @click="${this.handleChecked}" type="checkbox" value="checkbox">
-
-			<label for="checkbox">
-				Filter my data when true: ${this.checked} 
-			</label>
+			<input @click="${ this.handleChecked }" type="checkbox" value="${ this.label }">
 		`;
 	}
 
 	handleChecked(event) {
-		// when clicked capture boolean value and send it up
-		this.checked = !this.checked;
-		let myChecked = this.checked;
+		this.checked = event.target.checked;
 		const options = {
-			detail: { myChecked },
+			detail: { checked: this.checked },
 			bubbles: true,
 			composed: true
 		};
+
 		this.dispatchEvent(new CustomEvent('checked-event', options));
 	}
-
-
 };
 
 customElements.define('checkbox-element', CheckboxElement);

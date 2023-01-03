@@ -1,4 +1,5 @@
 import { LitElement, html } from 'lit';
+import { LabelElement } from '../components/checkbox/label.js';
 import { CheckboxElement } from '../components/checkbox/checkbox.js';
 import { TableElement } from '../components/table/table.js';
 
@@ -19,7 +20,7 @@ export class DisplayElement extends LitElement {
 		this.foodTypes = {};
 
 		this.addEventListener('checked-event', (e) => {
-			this.checked = e.detail.myChecked; // boolean value
+			this.checked = e.detail.checked; // boolean value
 			this.filtered();
 		});
 	}
@@ -47,9 +48,12 @@ export class DisplayElement extends LitElement {
 	//render child components
 		return html`
 
-			${}
-			<checkbox-element>
-			</checkbox-element>
+			${this.foodTypes.map((type) => {
+				return html`
+				<label-element .label=${ type }></label-element>
+				<br />
+				`
+			})}
 
 			<table-element .data=${ this.data } .filteredData=${ this.filteredData }>
 			</table-element>
