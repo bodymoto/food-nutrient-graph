@@ -6,6 +6,8 @@ export class TableElement extends LitElement {
 		data: { type: Array },
 		filteredData: { type: Array },
 		checked: { type: Boolean },
+		label: { type: String },
+		
 		count: { type: Number },
 	};
 

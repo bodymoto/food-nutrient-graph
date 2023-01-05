@@ -1,15 +1,15 @@
 import { LitElement, html } from 'lit';
-import { LabelElement } from '../components/checkbox/label.js';
-import { CheckboxElement } from '../components/checkbox/checkbox.js';
+
 import { TableElement } from '../components/table/table.js';
+import { HeaderElement } from './header/header.js';
 
 export class DisplayElement extends LitElement {
 
 	static properties = {
 		data: { type: Array },
+		label: { type: String },
 		checked: { type: Boolean },
 		filteredData: { type: Array },
-		foodTypes: {},
 	};
 
 	constructor() {
@@ -17,10 +17,12 @@ export class DisplayElement extends LitElement {
 
 		this.data = [];
 		this.filteredData = [];
-		this.foodTypes = {};
+		this.checked = false;
+		this.label = '';
 
 		this.addEventListener('checked-event', (e) => {
 			this.checked = e.detail.checked; // boolean value
+			this.label = e.detail.label;
 			this.filtered();
 		});
 	}
@@ -28,32 +30,16 @@ export class DisplayElement extends LitElement {
 	filtered() {
 		if (this.checked === true) {
 			this.filteredData = this.data.filter((item) => {
-				return item.type === 'fruit';
+				return item.type === this.label;
 			});
 		} else { this.filteredData = this.data };
 	}
 
-	getFoodTypes() {
-		let foodTypes = {};
-		this.data.forEach((food) => foodTypes[food.type] = true);
-		return Object.keys(foodTypes);
-	}
-
-	willUpdate(changedProperties) {
-		// console.log(changedProperties);
-		this.foodTypes = this.getFoodTypes();
-	}
 
 	render() {
 	//render child components
 		return html`
-
-			${this.foodTypes.map((type) => {
-				return html`
-				<label-element .label=${ type }></label-element>
-				<br />
-				`
-			})}
+			<header-element .data=${ this.data }></header-element>
 
 			<table-element .data=${ this.data } .filteredData=${ this.filteredData }>
 			</table-element>
