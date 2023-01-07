@@ -8,7 +8,6 @@ export class CheckboxElement extends LitElement {
 	}
 
 	render() {
-		//this.renderRoot.host.attributes.for.nodeValue
 		return html`
 			<input @click="${ this.handleChecked }" type="checkbox" for="${ this.label }">
 		`;
@@ -16,10 +15,10 @@ export class CheckboxElement extends LitElement {
 
 	handleChecked(event) {
 		this.checked = event.target.checked;
+		
 		const options = {
 			detail: {
-				checked: this.checked,
-				label: this.attributes.for.textContent
+				filter: this,
 			},
 			bubbles: true,
 			composed: true

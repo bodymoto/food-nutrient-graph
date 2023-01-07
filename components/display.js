@@ -1,15 +1,14 @@
 import { LitElement, html } from 'lit';
-
-import { TableElement } from '../components/table/table.js';
+import { TableElement } from './table/table.js';
 import { HeaderElement } from './header/header.js';
 
 export class DisplayElement extends LitElement {
 
-	static properties = {
-		data: { type: Array },
-		label: { type: String },
-		checked: { type: Boolean },
-		filteredData: { type: Array },
+	static get properties() {
+		return {
+			data: { type: Array },
+			filteredData: { type: Array }
+		};
 	};
 
 	constructor() {
@@ -17,32 +16,26 @@ export class DisplayElement extends LitElement {
 
 		this.data = [];
 		this.filteredData = [];
-		this.checked = false;
-		this.label = '';
 
-		this.addEventListener('checked-event', (e) => {
-			this.checked = e.detail.checked; // boolean value
-			this.label = e.detail.label;
-			this.filtered();
+		this.addEventListener('filter-data', (e) => {
+			this.filteredData = e.detail.filteredData;
 		});
 	}
 
-	filtered() {
-		if (this.checked === true) {
-			this.filteredData = this.data.filter((item) => {
-				return item.type === this.label;
-			});
-		} else { this.filteredData = this.data };
+	willUpdate(changedProperties) {
+		if (changedProperties.has('data')) {
+			this.filteredData = this.data;
+		}
+		if (!this.filteredData.length) {
+			return this.filteredData = this.data;
+		}
 	}
 
-
 	render() {
-	//render child components
 		return html`
 			<header-element .data=${ this.data }></header-element>
 
-			<table-element .data=${ this.data } .filteredData=${ this.filteredData }>
-			</table-element>
+			<table-element .filteredData=${ this.filteredData }></table-element>
 		`;
 	}
 };

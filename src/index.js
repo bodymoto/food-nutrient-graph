@@ -9,4 +9,4 @@ document.body.appendChild(display);
 // python3 -m http.server 3000
 // http://localhost:3000/index.html
 
-// comment out devtools for production
+// comment out devtools for production in webpack config

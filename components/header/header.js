@@ -5,43 +5,66 @@ import { LabelElement } from './label/label.js';
 export class HeaderElement extends LitElement {
 
 	static properties = {
-		data: {type: Array},
-		checked: { type: Boolean },
+		data: { type: Array },
+		filteredData: { type: Array },
+		foodGroups: { type: Object },
 		label: { type: String },
-		foodTypes: {},
+		checked: { type: Object },
 	}
 
 	constructor() {
 		super();
-		// listen for checked-event and dispatch filtered data
 
 		this.data = [];
-		this.checked = false;
+		this.filteredData = [];
+		this.foodGroups = {};
+		this.checked = {};
 		this.label = '';
-		this.foodTypes = {};
+
+		this.addEventListener('checked-event', (e) => {
+			this.checked[e.detail.filter.attributes.for.textContent] = e.detail.filter.checked;
+			// { vegetable: true, dairy: false }
+
+			this.filtered();
+		});
 	}
 
-	getFoodTypes() {
-		let foodTypes = {};
-		this.data.forEach((food) => foodTypes[food.type] = true);
-		return Object.keys(foodTypes);
+	filtered() {
+		this.filteredData = this.data.filter(item => this.checked[item.type]);
+
+		const options = {
+			detail: {
+				filteredData: this.filteredData,
+			},
+			bubbles: true,
+			composed: true
+		};
+
+		this.dispatchEvent(new CustomEvent('filter-data', options))
+	}
+
+	getFoodGroups() {
+		let foodGroups = {};
+		this.data.forEach((food) => foodGroups[food.type] = true);
+		return Object.keys(foodGroups);
 	}
 
 	willUpdate(changedProperties) {
-		// console.log(changedProperties);
-		this.foodTypes = this.getFoodTypes();
+		this.foodGroups = this.getFoodGroups();
 	}
 
 	render() {
 		return html`
-		${this.foodTypes.map((type) => {
-			return html`
-			<checkbox-element .checked="${ this.checked }" for="${ type }"></checkbox-element>
+			${
+				this.foodGroups.map((group) => {
+					return html`
+					<checkbox-element for="${ group }"></checkbox-element>
 
-			<label-element .label="${ type }"></label-element>
+					<label-element .label="${ group }"></label-element>
 
-			<br />		`
-		})}
+					<br />
+					`
+			})}
 		`;
 	}
 };
