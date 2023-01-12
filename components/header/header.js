@@ -23,7 +23,7 @@ export class HeaderElement extends LitElement {
 
 		this.addEventListener('checked-event', (e) => {
 			this.checked[e.detail.filter.attributes.for.textContent] = e.detail.filter.checked;
-			// { vegetable: true, dairy: false }
+			// example output { vegetable: true, dairy: false }
 
 			this.filtered();
 		});
