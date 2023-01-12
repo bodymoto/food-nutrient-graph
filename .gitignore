@@ -6,3 +6,6 @@ dist
 
 #babel
 lib
+
+#open-wc
+coverage
