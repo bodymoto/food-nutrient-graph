@@ -3,23 +3,22 @@ import { CheckboxElement } from '../components/header/checkbox/checkbox.js';
 
 describe('CheckboxElement', () => {
 
-  // it('can instantiate an element', async () => {
-  //   const el = await fixture(html` <checkbox-element for="${'vegetable'}"></checkbox-element> `);
-  //   expect(el.getAttribute('for')).to.equal('vegetable');
-  // });
+  it('can instantiate an element', async () => {
+    const element = await fixture(html` <checkbox-element for="${'vegetable'}"></checkbox-element> `);
+    expect(element.getAttribute('for')).to.equal('vegetable');
+  });
 
 
   it('can await an event', async () => {
 
-    const el = await fixture(html` <checkbox-element></checkbox-element> `);
+    const element = await fixture(html` <checkbox-element></checkbox-element> `);
+    const listener = oneEvent(element, 'checked-event');
 
-    const listener = oneEvent(el, 'checked-event');
-
-    el.shadowRoot.querySelector('input').click();
+    element.shadowRoot.querySelector('input').click();
 
     const { detail } = await listener;
 
-    expect(detail.filter).to.equal(el);
+    expect(detail.filter).to.equal(element);
   });
 });
 

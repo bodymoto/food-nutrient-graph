@@ -4,8 +4,8 @@ import { LabelElement } from '../components/header/label/label.js';
 
 describe('LabelElement', () => {
   it('can instantiate an element', async () => {
-    const el = await fixture(html` <label-element for="${ 'vegetable' }"> ${ 'vegetable' } </label-element> `);
-    expect(el.getAttribute('for')).to.equal('vegetable');
+    const element = await fixture(html` <label-element for="${ 'vegetable' }"> ${ 'vegetable' } </label-element> `);
+    expect(element.getAttribute('for')).to.equal('vegetable');
   });
 });
 
