@@ -8,9 +8,8 @@ export class TableElement extends LitElement {
 		};
 	}
 
-	constructor() {
-		super();
-		this.filteredData = [];
+	willUpdate(changedProperties) {
+		console.log(changedProperties);
 	}
 
 	render() {

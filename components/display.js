@@ -17,8 +17,8 @@ export class DisplayElement extends LitElement {
 		this.data = [];
 		this.filteredData = [];
 
-		this.addEventListener('filter-data', (e) => {
-			this.filteredData = e.detail.filteredData;
+		this.addEventListener('filter-data', (event) => {
+			this.filteredData = event.detail.filteredData;
 		});
 	}
 
