@@ -32,7 +32,7 @@ export class HeaderElement extends LitElement {
 	}
 
 	async filtered() {
-		this.filteredData = this.data.filter(item => this.checked[item.type]);
+		this.filteredData = this.data.filter(item => this.checked[item.group]);
 
 		const options = {
 			detail: {
@@ -48,7 +48,7 @@ export class HeaderElement extends LitElement {
 
 	getFoodGroups() {
 		let foodGroups = {};
-		this.data.forEach((food) => foodGroups[food.type] = true);
+		this.data.forEach((food) => foodGroups[food.group] = true);
 		return Object.keys(foodGroups);
 	}
 

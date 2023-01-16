@@ -27,9 +27,27 @@ export class TableElement extends LitElement {
 						this.filteredData.map((e) => {
 							return html`
 							<tr>
-								<td>${e.type}</td>
+								<td>${e.group}</td>
 								<td>${e.name}</td>
-								<td>${e.calories}</td>
+								<td>${e.fdcid}</td>
+								<td>${e.portion}</td>
+								<td>${e.netCarbs}</td>
+								<td>${e.water}</td>
+								<td>${e.protein}</td>
+								<td>${e.carbs}</td>
+								<td>${e.fiber}</td>
+								<td>${e.sugars}</td>
+								<td>${e.glucose}</td>
+								<td>${e.lactose}</td>
+								<td>${e.ca}</td>
+								<td>${e.fe}</td>
+								<td>${e.mg}</td>
+								<td>${e.p}</td>
+								<td>${e.k}</td>
+								<td>${e.na}</td>
+								<td>${e.vitaminC}</td>
+								<td>${e.vitaminB6}</td>
+								<td>${e.cholesterol}</td>
 							</tr>
 							`;
 					})}
