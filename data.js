@@ -345,8 +345,6 @@ export const data = [
         vitaminB6: 0.129,
         cholesterol: 0
     },
-
-//veggies
     {
         group: 'vegetable',
         name: 'tomatoes',
@@ -1412,7 +1410,7 @@ export const data = [
         vitaminC: 10.8,
         vitaminB6: 0.032,
         cholesterol: 0
-    }
+    },
     {
         group: 'meat',
         name: 'pork, bacon',
