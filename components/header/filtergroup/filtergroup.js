@@ -30,7 +30,7 @@ export class FilterGroupElement extends LitElement {
 		};
 
     await this.updateComplete;
-		this.dispatchEvent(new CustomEvent('checked-event', options));
+		this.dispatchEvent(new CustomEvent('groups-event', options));
 	}
 };
 

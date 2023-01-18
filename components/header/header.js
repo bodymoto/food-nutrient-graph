@@ -20,12 +20,19 @@ export class HeaderElement extends LitElement {
 		this.foodGroups = {};
 
 		this.checked = {};
-		this.label = '';
 
-		this.addEventListener('checked-event', (event) => {
+		this.addEventListener('groups-event', (event) => {
 
 			this.checked[event.detail.filter.label] = event.detail.filter.checked;
 			// example output { vegetable: true, dairy: false }
+
+			this.filtered();
+		});
+
+		this.addEventListener('grams-event', (event) => {
+
+			this.checked[event.detail.filter.label] = event.detail.filter.checked;
+			// example output { grams: true }
 
 			this.filtered();
 		});
@@ -43,12 +50,12 @@ export class HeaderElement extends LitElement {
 		};
 
     await this.updateComplete;
-		this.dispatchEvent(new CustomEvent('filter-data', options))
+		this.dispatchEvent(new CustomEvent('filter-data', options));
 	}
 
 	getFoodGroups() {
 		let foodGroups = {};
-		this.data.forEach((food) => foodGroups[food.group] = true);
+		this.data.forEach((item) => foodGroups[item.group] = true);
 		return Object.keys(foodGroups);
 	}
 
@@ -59,9 +66,9 @@ export class HeaderElement extends LitElement {
 	render() {
 		return html`
 			${
-				this.foodGroups.map((group) => {
+				this.foodGroups.map((item) => {
 					return html`
-					<filter-group-element label=${group}></filter-group-element>
+					<filter-group-element label=${item}></filter-group-element>
 					<br />
 					`
 				}

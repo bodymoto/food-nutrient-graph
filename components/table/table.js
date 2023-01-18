@@ -9,7 +9,8 @@ export class TableElement extends LitElement {
 	}
 
 	willUpdate(changedProperties) {
-		console.log(changedProperties);
+		// console.log(this.filteredData);
+		// console.log(changedProperties);
 	}
 
 	render() {
@@ -19,18 +20,22 @@ export class TableElement extends LitElement {
 					<tr>
 						${
 							Object.keys(this.filteredData[0]).map((key) => html`<th>${key}</th>`)
+							//remove raw category from list
 						}
 					</tr>
 				</thead>
 				<tbody>
 					${
-						this.filteredData.map((e) => {
+						this.filteredData.map((e, i) => {
 							return html`
 							<tr>
 								<td>${e.group}</td>
 								<td>${e.name}</td>
 								<td>${e.fdcid}</td>
+								<td>${e.raw}</td>
 								<td>${e.portion}</td>
+								<td>${e.measure}</td>
+								<td>${e.grams}</td>
 								<td>${e.netCarbs}</td>
 								<td>${e.water}</td>
 								<td>${e.protein}</td>
@@ -48,6 +53,7 @@ export class TableElement extends LitElement {
 								<td>${e.vitaminC}</td>
 								<td>${e.vitaminB6}</td>
 								<td>${e.cholesterol}</td>
+								<td>#${i}</td>
 							</tr>
 							`;
 					})}
