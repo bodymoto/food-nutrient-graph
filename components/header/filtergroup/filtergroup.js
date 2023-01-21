@@ -15,8 +15,8 @@ export class FilterGroupElement extends LitElement {
 
 	render() {
 		return html`
-			<input @click=${ this.handleChecked } type="checkbox" for=${ this.label }>
-			<label for=${ this.label }>${ this.label }</label>
+			<input @change=${this.handleChecked} type="checkbox" for=${this.label}>
+			<label for=${this.label}>${this.label}</label>
 		`;
 	}
 

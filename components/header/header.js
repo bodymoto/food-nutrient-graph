@@ -18,21 +18,12 @@ export class HeaderElement extends LitElement {
 		super();
 
 		this.foodGroups = {};
-
 		this.checked = {};
 
 		this.addEventListener('groups-event', (event) => {
 
 			this.checked[event.detail.filter.label] = event.detail.filter.checked;
 			// example output { vegetable: true, dairy: false }
-
-			this.filtered();
-		});
-
-		this.addEventListener('grams-event', (event) => {
-
-			this.checked[event.detail.filter.label] = event.detail.filter.checked;
-			// example output { grams: true }
 
 			this.filtered();
 		});
@@ -69,7 +60,6 @@ export class HeaderElement extends LitElement {
 				this.foodGroups.map((item) => {
 					return html`
 					<filter-group-element label=${item}></filter-group-element>
-					<br />
 					`
 				}
 			)}

@@ -1,59 +1,89 @@
 import { LitElement, html } from 'lit';
+import { HeadElement } from './head/head.js';
 
 export class TableElement extends LitElement {
 
 	static get properties() {
 		return {
-			filteredData: { type: Array }
+			filteredData: { type: Array },
+			columns: { type: Array },
+			selectedCategory: { type: String },
+			sorted: { type: Boolean }
 		};
 	}
 
+	constructor() {
+		super();
+		this.filteredData = [];
+		this.columns = [];
+		this.selectedCategory = '';
+		this.sorted = false;
+
+		this.addEventListener('selected-category', (event) => {
+			this.selectedCategory = event.detail.selected; // example 'name' or 'grams'
+			this.sorted = !this.sorted;
+			this.sorted ? this.sortAscending() : this.sortDescending();
+		});
+	}
+
 	willUpdate(changedProperties) {
-		// console.log(this.filteredData);
-		// console.log(changedProperties);
+		// console.log("checking:", changedProperties);
+		this.columns = Object.keys(this.filteredData[0]);
+	}
+
+	sortAscending() {
+		const selectedCategory = this.selectedCategory;
+
+		const compare = (a, b) => {
+			if ( a[selectedCategory] < b[selectedCategory] ){
+				return -1;
+			}
+			if ( a[selectedCategory] > b[selectedCategory] ){
+				return 1;
+			}
+			return 0;
+		};
+		this.filteredData = this.filteredData.sort(compare);
+	}
+
+	sortDescending() {
+		const selectedCategory = this.selectedCategory;
+
+		const compare = (a, b) => {
+			if ( a[selectedCategory] < b[selectedCategory] ){
+				return 1;
+			}
+			if ( a[selectedCategory] > b[selectedCategory] ){
+				return -1;
+			}
+			return 0;
+		};
+		this.filteredData = this.filteredData.sort(compare);
 	}
 
 	render() {
 		return html`
 			<table>
+
 				<thead>
 					<tr>
-						${
-							Object.keys(this.filteredData[0]).map((key) => html`<th>${key}</th>`)
-							//remove raw category from list
-						}
+						${this.columns.map((column) => html`
+							<th>
+								<head-element category=${column}></head-element>
+							</th>
+						`)}
 					</tr>
 				</thead>
+
 				<tbody>
 					${
-						this.filteredData.map((e, i) => {
+						this.filteredData.map((object) => {
 							return html`
 							<tr>
-								<td>${e.group}</td>
-								<td>${e.name}</td>
-								<td>${e.fdcid}</td>
-								<td>${e.raw}</td>
-								<td>${e.portion}</td>
-								<td>${e.measure}</td>
-								<td>${e.grams}</td>
-								<td>${e.netCarbs}</td>
-								<td>${e.water}</td>
-								<td>${e.protein}</td>
-								<td>${e.carbs}</td>
-								<td>${e.fiber}</td>
-								<td>${e.sugars}</td>
-								<td>${e.glucose}</td>
-								<td>${e.lactose}</td>
-								<td>${e.ca}</td>
-								<td>${e.fe}</td>
-								<td>${e.mg}</td>
-								<td>${e.p}</td>
-								<td>${e.k}</td>
-								<td>${e.na}</td>
-								<td>${e.vitaminC}</td>
-								<td>${e.vitaminB6}</td>
-								<td>${e.cholesterol}</td>
-								<td>#${i}</td>
+								${this.columns.map((property) => {
+									return html`
+									<td>${object[property]}</td>
+								`})}
 							</tr>
 							`;
 					})}
