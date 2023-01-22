@@ -8,7 +8,7 @@ export class TableElement extends LitElement {
 			filteredData: { type: Array },
 			columns: { type: Array },
 			selectedCategory: { type: String },
-			sorted: { type: Boolean }
+			store: { type: Object }
 		};
 	}
 
@@ -17,18 +17,32 @@ export class TableElement extends LitElement {
 		this.filteredData = [];
 		this.columns = [];
 		this.selectedCategory = '';
-		this.sorted = false;
+		this.store = {};
 
 		this.addEventListener('selected-category', (event) => {
-			this.selectedCategory = event.detail.selected; // example 'name' or 'grams'
-			this.sorted = !this.sorted;
-			this.sorted ? this.sortAscending() : this.sortDescending();
+			this.selectedCategory = event.detail.selected;
+
+			this.store[this.selectedCategory] += 1;
+
+			if (this.store[this.selectedCategory] === 1) {
+				this.sortAscending();
+				this.selectedCategory = '';
+			}
+
+			if (this.store[this.selectedCategory] === 2) {
+				this.sortDescending();
+				this.store[this.selectedCategory] = 0;
+				this.selectedCategory = '';
+			}
 		});
 	}
 
 	willUpdate(changedProperties) {
-		// console.log("checking:", changedProperties);
-		this.columns = Object.keys(this.filteredData[0]);
+		if (changedProperties.has('filteredData')){
+			this.columns = Object.keys(this.filteredData[0]);
+			this.filteredData.forEach((object) => 
+				this.columns.map((key) => this.store[key] = 0));
+		};
 	}
 
 	sortAscending() {
@@ -43,7 +57,8 @@ export class TableElement extends LitElement {
 			}
 			return 0;
 		};
-		this.filteredData = this.filteredData.sort(compare);
+
+		this.filteredData.sort(compare);
 	}
 
 	sortDescending() {
@@ -58,7 +73,8 @@ export class TableElement extends LitElement {
 			}
 			return 0;
 		};
-		this.filteredData = this.filteredData.sort(compare);
+
+		this.filteredData.sort(compare);
 	}
 
 	render() {
