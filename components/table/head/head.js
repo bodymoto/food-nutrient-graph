@@ -12,7 +12,6 @@ export class HeadElement extends LitElement {
 	}
 
 	async handleClick(event) {
-
 		const options = {
 			detail: {	selected: this.category },
 			bubbles: true,
