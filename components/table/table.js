@@ -1,5 +1,5 @@
 import { LitElement, html } from 'lit';
-import { HeadElement } from './head/head.js';
+import { TableHeadElement } from './tablehead/tablehead.js';
 
 export class TableElement extends LitElement {
 
@@ -85,7 +85,7 @@ export class TableElement extends LitElement {
 					<tr>
 						${this.columns.map((column) => html`
 							<th>
-								<head-element category=${column}></head-element>
+								<table-head-element category=${column}></table-head-element>
 							</th>
 						`)}
 					</tr>

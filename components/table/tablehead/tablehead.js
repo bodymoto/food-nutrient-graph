@@ -1,6 +1,6 @@
 import { LitElement, html } from 'lit';
 
-export class HeadElement extends LitElement {
+export class TableHeadElement extends LitElement {
 
 	static properties = {
 		category: { type: String }
@@ -12,6 +12,7 @@ export class HeadElement extends LitElement {
 	}
 
 	async handleClick(event) {
+		console.log(event);
 		const options = {
 			detail: {	selected: this.category },
 			bubbles: true,
@@ -29,4 +30,4 @@ export class HeadElement extends LitElement {
 	}
 };
 
-customElements.define('head-element', HeadElement);
+customElements.define('table-head-element', TableHeadElement);
