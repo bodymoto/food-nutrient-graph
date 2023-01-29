@@ -12,7 +12,6 @@ export class TableHeadElement extends LitElement {
 	}
 
 	async handleClick(event) {
-		console.log(event);
 		const options = {
 			detail: {	selected: this.category },
 			bubbles: true,
