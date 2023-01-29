@@ -39,6 +39,10 @@ export class TableElement extends LitElement {
 
 	willUpdate(changedProperties) {
 		if (changedProperties.has('filteredData')){
+
+			if(!this.filteredData.length){
+				return;
+			}
 			this.columns = Object.keys(this.filteredData[0]);
 			this.filteredData.forEach((object) => 
 				this.columns.map((key) => this.store[key] = 0));
