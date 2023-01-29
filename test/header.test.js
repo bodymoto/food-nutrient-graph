@@ -3,7 +3,7 @@ import '../components/header/header.js';
 
 describe('HeaderElement', () => {
 
-	it('has a default data, foodGroups and checked value', async () => {
+	it('has default values for each property', async () => {
 		const element = await fixture(html`<header-element></header-element>`);
 		expect(element.data).to.deep.equal([]);
 		expect(element.foodGroups).to.deep.equal([]);

@@ -3,7 +3,7 @@ import '../components/header/filtergroup/filtergroup.js';
 
 describe('FilterGroupElement', () => {
 
-  it('has a default label and checked value', async () => {
+  it('has default values for each property', async () => {
     const element = await fixture(html`<filter-group-element></filter-group-element>`);
     expect(element.label).to.equal('');
     expect(element.checked).to.equal(false);

@@ -3,7 +3,7 @@ import '../components/table/tablehead/tablehead.js';
 
 describe('TableHeadElement', () => {
 
-	it('has default category value', async () => {
+	it('has default values for each property', async () => {
 		const element = await fixture(html`<table-head-element></table-head-element`);
 		expect(element.category).to.equal('');
 	});
