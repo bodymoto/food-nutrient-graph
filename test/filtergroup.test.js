@@ -4,24 +4,24 @@ import '../components/header/filtergroup/filtergroup.js';
 describe('FilterGroupElement', () => {
 
   it('has a default label and checked value', async () => {
-    const element = await fixture(html` <filter-group-element></filter-group-element> `);
+    const element = await fixture(html`<filter-group-element></filter-group-element>`);
     expect(element.label).to.equal('');
     expect(element.checked).to.equal(false);
   });
 
   it('can set label attribute', async () => {
     const label = 'test';
-    const element = await fixture(html` <filter-group-element label=${label}></filter-group-element> `);
+    const element = await fixture(html`<filter-group-element label=${label}></filter-group-element>`);
     expect(element.label).to.equal(label);
   });
 
   it('can set checked property', async () => {
-    const element = await fixture(html` <filter-group-element .checked=${true}></filter-group-element> `);
+    const element = await fixture(html`<filter-group-element .checked=${true}></filter-group-element>`);
     expect(element.checked).to.equal(true);
   });
 
   it('toggled checked when checked is clicked', async () => {
-    const element = await fixture(html` <filter-group-element></filter-group-element> `);
+    const element = await fixture(html`<filter-group-element></filter-group-element>`);
     expect(element.checked).to.equal(false);
 
     element.shadowRoot.querySelector('input').click();
@@ -33,8 +33,8 @@ describe('FilterGroupElement', () => {
 
   it('dispatch an event when checkbox is clicked', async () => {
 
-    const element = await fixture(html` <filter-group-element></filter-group-element> `);
-    const listener = oneEvent(element, 'checked-event');
+    const element = await fixture(html`<filter-group-element></filter-group-element>`);
+    const listener = oneEvent(element, 'groups-event');
 
     element.shadowRoot.querySelector('input').click();
 

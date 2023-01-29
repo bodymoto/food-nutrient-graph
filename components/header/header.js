@@ -6,25 +6,22 @@ export class HeaderElement extends LitElement {
 	static get properties() {
 		return {
 			data: { type: Array },
-
-			foodGroups: { type: Object },
-
+			foodGroups: { type: Array },
 			checked: { type: Object },	
-			label: { type: String },
 		};
 	}
 
 	constructor() {
 		super();
 
-		this.foodGroups = {};
+		this.data = [];
+		this.foodGroups = [];
 		this.checked = {};
 
 		this.addEventListener('groups-event', (event) => {
 
 			this.checked[event.detail.filter.label] = event.detail.filter.checked;
 			// example output { vegetable: true, dairy: false }
-
 			this.filtered();
 		});
 	}
@@ -44,14 +41,14 @@ export class HeaderElement extends LitElement {
 		this.dispatchEvent(new CustomEvent('filter-data', options));
 	}
 
-	getFoodGroups() {
-		let foodGroups = {};
-		this.data.forEach((item) => foodGroups[item.group] = true);
-		return Object.keys(foodGroups);
-	}
-
 	willUpdate(changedProperties) {
 		this.foodGroups = this.getFoodGroups();
+	}
+
+	getFoodGroups() {
+		let foods = {};
+		this.data.forEach((item) => foods[item.group] = true);
+		return Object.keys(foods);
 	}
 
 	render() {
