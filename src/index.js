@@ -5,6 +5,10 @@ const display = document.createElement('display-element');
 display.data = data;
 document.body.appendChild(display);
 
-// http://localhost:8000/index.html
+// ***** COMMENT OUT DEVTOOLS FOR PRODUCTION IN WEBPACK CONFIG *****
 
-// comment out devtools for production in webpack config
+// Your render() method should follow these guidelines:
+// Avoid changing the component's state
+// Avoid producing any side effects
+// Use only the component's properties as input
+// Return the same result when given the same property values
