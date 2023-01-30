@@ -41,9 +41,3 @@ export class DisplayElement extends LitElement {
 };
 
 customElements.define('display-element', DisplayElement);
-
-// Your render() method should follow these guidelines:
-// Avoid changing the component's state
-// Avoid producing any side effects
-// Use only the component's properties as input
-// Return the same result when given the same property values

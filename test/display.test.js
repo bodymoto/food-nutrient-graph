@@ -16,4 +16,17 @@ describe('DisplayElement', () => {
 
 		expect(element.data).to.equal(data);
 	});
+
+  it('can trigger the event listener', async () => {
+    const element = await fixture(html`<display-element></display-element>`);
+
+    const options = {
+      detail: {
+        filteredData: [{ group: 'test' }]
+      }
+    };
+
+    element.dispatchEvent(new CustomEvent('filter-data', options));
+    expect(element.filteredData).to.deep.equal([{ group: 'test' }]);
+  });
 });

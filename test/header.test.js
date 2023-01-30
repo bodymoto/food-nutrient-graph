@@ -7,6 +7,7 @@ describe('HeaderElement', () => {
 		const element = await fixture(html`<header-element></header-element>`);
 		expect(element.data).to.deep.equal([]);
 		expect(element.foodGroups).to.deep.equal([]);
+    expect(element.filteredData).to.deep.equal([]);
 		expect(element.checked).to.deep.equal({});
 	});
 
@@ -29,5 +30,23 @@ describe('HeaderElement', () => {
     element.checked = { test: true, test2: true, test3: false };
     element.filtered();
     expect(element.filteredData).to.deep.equal( [{group: 'test'}, {group: 'test2'}] );
+  });
+
+  it('can trigger the event listener', async () => {
+    const checked = { test: true };
+    const data = [{ group: 'test' }];
+    const element = await fixture(html`<header-element .checked=${checked} .data=${data}></header-element>`);
+
+    const options = {
+      detail: {
+        filter: {
+          label: 'test',
+          checked: true
+        }
+      }
+    };
+
+    element.dispatchEvent(new CustomEvent('groups-event', options));
+    expect(element.filteredData).to.deep.equal([{ group: 'test' }]);
   });
 });

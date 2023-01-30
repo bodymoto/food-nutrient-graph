@@ -7,7 +7,8 @@ export class HeaderElement extends LitElement {
 		return {
 			data: { type: Array },
 			foodGroups: { type: Array },
-			checked: { type: Object },	
+			checked: { type: Object },
+			filteredData: { type: Array }
 		};
 	}
 
@@ -17,11 +18,14 @@ export class HeaderElement extends LitElement {
 		this.data = [];
 		this.foodGroups = [];
 		this.checked = {};
+		this.filteredData = [];
 
 		this.addEventListener('groups-event', (event) => {
 
-			this.checked[event.detail.filter.label] = event.detail.filter.checked;
-			// example output { vegetable: true, dairy: false }
+			const category = event.detail.filter.label; // 'vegetable'
+			const selected = event.detail.filter.checked; // true
+
+			this.checked[category] = selected; // { vegetable: true, dairy: false }
 			this.filtered();
 		});
 	}
