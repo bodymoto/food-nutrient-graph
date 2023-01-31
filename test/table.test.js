@@ -16,4 +16,25 @@ describe('TableElement', () => {
     const element = await fixture(html`<header-element .filteredData=${filteredData}></header-element>`);
     expect(element.filteredData).to.equal(filteredData);
   });
+
+  it('can trigger the event listener', async () => {
+    const selectedCategory = 'test';
+    const filteredData = [{test: 'test'}];
+
+    const element = await fixture(html`<table-element .selectedCategory=${selectedCategory} .filteredData=${filteredData}></table-element>`);
+
+    const options = {
+      detail: {
+        selected: 'test'
+      }
+    };
+
+		expect(element.store).to.deep.equal({test: 0});
+    element.dispatchEvent(new CustomEvent('selected-category', options));
+    expect(element.store).to.deep.equal({test: 1});
+    expect(element.selectedCategory).to.equal('');
+    element.dispatchEvent(new CustomEvent('selected-category', options));
+    expect(element.store).to.deep.equal({test: 0});
+    expect(element.selectedCategory).to.equal('');
+  });
 });

@@ -20,8 +20,8 @@ export class TableElement extends LitElement {
 		this.store = {};
 
 		this.addEventListener('selected-category', (event) => {
-			this.selectedCategory = event.detail.selected;
-
+			this.selectedCategory = event.detail.selected; // column string: "name" or "fdcid"
+			
 			this.store[this.selectedCategory] += 1;
 
 			if (this.store[this.selectedCategory] === 1) {
