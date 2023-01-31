@@ -20,8 +20,8 @@ export class TableElement extends LitElement {
 		this.store = {};
 
 		this.addEventListener('selected-category', (event) => {
-			this.selectedCategory = event.detail.selected; // column string: "name" or "fdcid"
-			
+			this.selectedCategory = event.detail.selected; // clicked column, ie: "name" or "fdcid"
+
 			this.store[this.selectedCategory] += 1;
 
 			if (this.store[this.selectedCategory] === 1) {
@@ -49,7 +49,7 @@ export class TableElement extends LitElement {
 		};
 	}
 
-	sortAscending() {
+	sortAscending(...args) {
 		const selectedCategory = this.selectedCategory;
 
 		const compare = (a, b) => {
@@ -65,7 +65,7 @@ export class TableElement extends LitElement {
 		this.filteredData.sort(compare);
 	}
 
-	sortDescending() {
+	sortDescending(...args) {
 		const selectedCategory = this.selectedCategory;
 
 		const compare = (a, b) => {
