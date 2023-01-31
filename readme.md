@@ -1,5 +1,5 @@
 ## A web app for Keto enthusiests.
-## Currently in development.
+### Currently in development.
 
 *"Introducing the Keto Dieting Web App - a revolutionary platform that streamlines the keto diet journey. Built with the latest web technologies, including JavaScript, Lit Framework, Webpack, Babel, Open-WC and Web Test Runner, this app offers an intuitive and user-friendly interface.
 
