@@ -5,8 +5,6 @@ const display = document.createElement('display-element');
 display.data = data;
 document.body.appendChild(display);
 
-// ***** COMMENT OUT DEVTOOLS FOR PRODUCTION IN WEBPACK CONFIG *****
-
 // Your render() method should follow these guidelines:
 // Avoid changing the component's state
 // Avoid producing any side effects

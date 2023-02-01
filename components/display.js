@@ -4,11 +4,9 @@ import { HeaderElement } from './header/header.js';
 
 export class DisplayElement extends LitElement {
 
-	static get properties() {
-		return {
-			data: { type: Array },
-			filteredData: { type: Array }
-		};
+	static properties = {
+		data: { type: Array },
+		filteredData: { type: Array }
 	};
 
 	constructor() {
