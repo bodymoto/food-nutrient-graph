@@ -9,7 +9,7 @@ module.exports = {
   watch: true,
   target: ["web", "es5"],
   mode: 'development',
-  // devtool: 'source-map',
+  devtool: 'source-map',
   module: {
     rules: [
       {
