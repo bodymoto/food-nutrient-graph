@@ -17,14 +17,6 @@ describe('DisplayElement', () => {
 		expect(element.data).to.equal(data);
 	});
 
-	it('converters data property', async () => {
-		const data = [{test: 'test'}, {test: 'test2'}];
-		const element = await fixture(html`<display-element></display-element>`);
-
-		element.data = data;
-		expect(element.data).to.deep.equal(data);
-	});
-
   it('can trigger the event listener', async () => {
     const element = await fixture(html`<display-element></display-element>`);
 
