@@ -1,12 +1,11 @@
 import { LitElement, html } from 'lit';
 import { TableElement } from './table/table.js';
 import { HeaderElement } from './header/header.js';
-import { data } from '../data.js';
 
 export class DisplayElement extends LitElement {
 
 	static properties = {
-		data: { type: Array, converter: data },
+		data: { type: Array },
 		filteredData: { type: Array }
 	};
 
