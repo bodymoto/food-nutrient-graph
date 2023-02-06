@@ -9,3 +9,6 @@ lib
 
 #open-wc
 coverage
+
+#original data-set
+data-original-copy.js
