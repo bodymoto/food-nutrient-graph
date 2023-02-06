@@ -31,7 +31,7 @@ export class HeaderElement extends LitElement {
 	}
 
 	async filtered() {
-		this.filteredData = this.data.filter(item => this.checked[item.group]);
+		this.filteredData = this.data.filter(item => this.checked[item['Group']]);
 
 		const options = {
 			detail: {
@@ -54,7 +54,7 @@ export class HeaderElement extends LitElement {
 
 	getFoodGroups() {
 		let foods = {};
-		this.data.forEach((item) => foods[item.group] = true);
+		this.data.forEach((item) => foods[item['Group']] = true);
 		return Object.keys(foods).sort();
 	}
 
