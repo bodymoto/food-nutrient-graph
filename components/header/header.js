@@ -1,4 +1,4 @@
-import { LitElement, html } from 'lit';
+import { LitElement, html, css } from 'lit';
 import { FilterGroupElement } from './filtergroup/filtergroup.js';
 
 export class HeaderElement extends LitElement {
@@ -46,14 +46,28 @@ export class HeaderElement extends LitElement {
 	}
 
 	willUpdate(changedProperties) {
-		this.foodGroups = this.getFoodGroups();
+		if (changedProperties.has('foodGroups')){
+			console.log(changedProperties);
+			this.foodGroups = this.getFoodGroups();
+		}
 	}
 
 	getFoodGroups() {
 		let foods = {};
 		this.data.forEach((item) => foods[item.group] = true);
-		return Object.keys(foods);
+		return Object.keys(foods).sort();
 	}
+
+	static styles = css`
+		:host {
+			margin: 20px;
+			height: 200px;
+			display: flex;
+			flex-wrap: wrap;
+			align-content: center;
+			justify-content: center;
+		}
+	`;
 
 	render() {
 		return html`

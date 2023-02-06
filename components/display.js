@@ -1,4 +1,4 @@
-import { LitElement, html } from 'lit';
+import { LitElement, html, css } from 'lit';
 import { TableElement } from './table/table.js';
 import { HeaderElement } from './header/header.js';
 

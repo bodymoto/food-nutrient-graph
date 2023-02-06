@@ -1,4 +1,4 @@
-import { LitElement, html } from 'lit';
+import { LitElement, html, css } from 'lit';
 
 export class FilterGroupElement extends LitElement {
 	
@@ -12,6 +12,37 @@ export class FilterGroupElement extends LitElement {
 		this.checked = false;
 		this.label = '';
 	}
+
+	static styles = css`
+		:host {
+			display: flex;
+			align-content: center;
+			justify-content: center;
+		}
+		label {
+			font-family: "Gill Sans", sans-serif;
+			letter-spacing: 1px;
+			margin: auto;
+			padding: 0 5px;
+			font-size: 24px;
+			text-transform: capitalize;
+		}
+		input {
+			cursor: pointer;
+			appearance: none;
+			width: 48px;
+			height: 48px;
+			border: 2px solid black;
+			background-clip: content-box;
+			padding: 6px;
+			border-radius: 6px;
+			transition: .5s;
+		}
+		input[type="checkbox"]:checked {
+			background-color: orange;
+			border-radius: 50%;
+		}
+	`;
 
 	render() {
 		return html`
