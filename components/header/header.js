@@ -47,7 +47,6 @@ export class HeaderElement extends LitElement {
 
 	willUpdate(changedProperties) {
 		if (changedProperties.has('foodGroups')){
-			console.log(changedProperties);
 			this.foodGroups = this.getFoodGroups();
 		}
 	}
