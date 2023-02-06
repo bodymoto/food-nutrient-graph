@@ -1,4 +1,4 @@
-import { LitElement, html } from 'lit';
+import { LitElement, html, css } from 'lit';
 import { TableHeadElement } from './tablehead/tablehead.js';
 
 export class TableElement extends LitElement {
@@ -81,10 +81,79 @@ export class TableElement extends LitElement {
 		this.filteredData.sort(compare);
 	}
 
+	static styles = css`
+		:host {
+			font-family: "Gill Sans", sans-serif;
+		}
+		caption {
+			padding: 10px;
+			caption-side: bottom;
+		}
+		thead {
+			font-size: 18px;
+		}
+		tr:nth-child(even) {
+			background-color: #eee;
+		}
+		th {
+			padding: 10px;
+		}
+		td:nth-child(1) {
+			text-transform: capitalize;
+		}
+		td:nth-child(2){
+			text-transform: capitalize;
+		}
+		td {
+			text-align: center;
+			padding: 10px;
+		}
+
+		.fruits td:nth-child(-n+2) {
+			background-color: #B0E0E6;
+		}
+		.vegetable td:nth-child(-n+2) {
+			background-color: #7CFC00;
+		}
+		.meat td:nth-child(-n+2) {
+			background-color: #FFA500;
+		}
+		.deli td:nth-child(-n+2) {
+			background-color: #DDA0DD;
+		}
+		.fish td:nth-child(-n+2) {
+			background-color: #FFA07A;
+		}
+		.shellfish td:nth-child(-n+2) {
+			background-color: #00FFFF;
+		}
+		.dairy td:nth-child(-n+2) {
+			background-color: #F0FFFF;
+		}
+		.nuts td:nth-child(-n+2) {
+			background-color: #FFD700;
+		}
+		.beverages td:nth-child(-n+2) {
+			background-color: #F5F5DC;
+		}
+		.fats td:nth-child(-n+2) {
+			background-color: #FFFFE0;
+		}
+		.flour td:nth-child(-n+2) {
+			background-color: #D2B48C;
+		}
+		.spices td:nth-child(-n+2) {
+			background-color: #8FBC8F;
+		}
+		.dips td:nth-child(-n+2) {
+			background-color: #FFC0CB;
+		}
+	`;
+
 	render() {
 		return html`
 			<table>
-
+				<caption>Keto dieting matrix</caption>
 				<thead>
 					<tr>
 						${this.columns.map((column) => html`
@@ -99,7 +168,7 @@ export class TableElement extends LitElement {
 					${
 						this.filteredData.map((object) => {
 							return html`
-							<tr>
+							<tr class=${object['Group'].replace(/ .*/,"")}>
 								${this.columns.map((property) => {
 									return html`
 									<td>${object[property]}</td>
