@@ -27,7 +27,7 @@ export class FilterGroupElement extends LitElement {
 			font-size: 24px;
 			text-transform: capitalize;
 		}
-		input {
+		input[type="checkbox"] {
 			cursor: pointer;
 			appearance: none;
 			width: 48px;
