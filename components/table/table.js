@@ -85,23 +85,27 @@ export class TableElement extends LitElement {
 		:host {
 			font-family: "Gill Sans", sans-serif;
 		}
+		table {
+			table-layout: fixed;
+			border: 2px solid black;
+			padding: 5px;
+		}
 		caption {
 			padding: 10px;
 			caption-side: bottom;
 		}
 		thead {
-			font-size: 18px;
+			font-size: 14px;
 		}
 		tr:nth-child(even) {
 			background-color: #eee;
 		}
 		th {
-			padding: 10px;
+			padding: 7px;
+			border: 1px solid black;
 		}
-		td:nth-child(1) {
-			text-transform: capitalize;
-		}
-		td:nth-child(2){
+		td:nth-child(1),
+		td:nth-child(2) {
 			text-transform: capitalize;
 		}
 		td {

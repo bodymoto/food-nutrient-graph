@@ -3,7 +3,8 @@ import { LitElement, html } from 'lit';
 export class TableHeadElement extends LitElement {
 
 	static properties = {
-		category: { type: String }
+		category: { type: String },
+		enabled: { type: Boolean}
 	}
 
 	constructor() {
