@@ -2527,7 +2527,7 @@ export const data = [
         "Cholesterol (mg)": 65.1
     },
     {
-        "Group": 'nuts & seeds',
+        "Group": 'kernels',
         "Name": 'almonds, unsalted',
         "FdcId": 2342966,
         "Raw": true,
@@ -2553,7 +2553,7 @@ export const data = [
         "Cholesterol (mg)": 0
     },
     {
-        "Group": 'nuts & seeds',
+        "Group": 'kernels',
         "Name": 'brazil nuts',
         "FdcId": 2342969,
         "Raw": true,
@@ -2579,7 +2579,7 @@ export const data = [
         "Cholesterol (mg)": 0
     },
     {
-        "Group": 'nuts & seeds',
+        "Group": 'kernels',
         "Name": 'chia seeds',
         "FdcId": 170554,
         "Raw": true,
@@ -2605,7 +2605,7 @@ export const data = [
         "Cholesterol (mg)": 0
     },
     {
-        "Group": 'nuts & seeds',
+        "Group": 'kernels',
         "Name": 'flax seeds',
         "FdcId": 2343063,
         "Raw": true,
@@ -2631,7 +2631,7 @@ export const data = [
         "Cholesterol (mg)": 0
     },
     {
-        "Group": 'nuts & seeds',
+        "Group": 'kernels',
         "Name": 'hazelnuts',
         "FdcId": 2342979,
         "Raw": true,
@@ -2657,7 +2657,7 @@ export const data = [
         "Cholesterol (mg)": 0
     },
     {
-        "Group": 'nuts & seeds',
+        "Group": 'kernels',
         "Name": 'hemp seeds',
         "FdcId": 170148,
         "Raw": true,
@@ -2683,7 +2683,7 @@ export const data = [
         "Cholesterol (mg)": 0
     },
     {
-        "Group": 'nuts & seeds',
+        "Group": 'kernels',
         "Name": 'macadamia nuts',
         "FdcId": 170178,
         "Raw": true,
@@ -2709,7 +2709,7 @@ export const data = [
         "Cholesterol (mg)": 0
     },
     {
-        "Group": 'nuts & seeds',
+        "Group": 'kernels',
         "Name": 'peanuts',
         "FdcId": 172430,
         "Raw": true,
@@ -2735,7 +2735,7 @@ export const data = [
         "Cholesterol (mg)": 0
     },
     {
-        "Group": 'nuts & seeds',
+        "Group": 'kernels',
         "Name": 'pecans',
         "FdcId": 170182,
         "Raw": true,
@@ -2761,7 +2761,7 @@ export const data = [
         "Cholesterol (mg)": 0
     },
     {
-        "Group": 'nuts & seeds',
+        "Group": 'kernels',
         "Name": 'pine nuts, dried',
         "FdcId": 170591,
         "Raw": true,
@@ -2787,7 +2787,7 @@ export const data = [
         "Cholesterol (mg)": 0
     },
     {
-        "Group": 'nuts & seeds',
+        "Group": 'kernels',
         "Name": 'pistachios',
         "FdcId": 170184,
         "Raw": true,
@@ -2813,7 +2813,7 @@ export const data = [
         "Cholesterol (mg)": 0
     },
     {
-        "Group": 'nuts & seeds',
+        "Group": 'kernels',
         "Name": 'poppy seeds',
         "FdcId": 171330,
         "Raw": true,
@@ -2839,7 +2839,7 @@ export const data = [
         "Cholesterol (mg)": 0
     },
     {
-        "Group": 'nuts & seeds',
+        "Group": 'kernels',
         "Name": 'pumpkin seeds, unsalted',
         "FdcId": 2343056,
         "Raw": true,
@@ -2865,7 +2865,7 @@ export const data = [
         "Cholesterol (mg)": 0
     },
     {
-        "Group": 'nuts & seeds',
+        "Group": 'kernels',
         "Name": 'sesame seeds, whole, dried',
         "FdcId": 170150,
         "Raw": true,
@@ -2891,7 +2891,7 @@ export const data = [
         "Cholesterol (mg)": 0
     },
     {
-        "Group": 'nuts & seeds',
+        "Group": 'kernels',
         "Name": 'sunflower seeds kernels, dried',
         "FdcId": 170562,
         "Raw": true,
@@ -2917,7 +2917,7 @@ export const data = [
         "Cholesterol (mg)": 0
     },
     {
-        "Group": 'nuts & seeds',
+        "Group": 'kernels',
         "Name": 'walnuts, black, dried',
         "FdcId": 170186,
         "Raw": true,
@@ -3541,7 +3541,7 @@ export const data = [
         "Cholesterol (mg)": 0
     },
     {
-        "Group": 'spices & herbs',
+        "Group": 'seasoning',
         "Name": 'basil, dried',
         "FdcId": 171317,
         "Raw": true,
@@ -3567,7 +3567,7 @@ export const data = [
         "Cholesterol (mg)": 0
     },
     {
-        "Group": 'spices & herbs',
+        "Group": 'seasoning',
         "Name": 'bay leaf',
         "FdcId": 170917,
         "Raw": true,
@@ -3593,7 +3593,7 @@ export const data = [
         "Cholesterol (mg)": 0
     },
     {
-        "Group": 'spices & herbs',
+        "Group": 'seasoning',
         "Name": 'dill seed',
         "FdcId": 170925,
         "Raw": true,
@@ -3619,7 +3619,7 @@ export const data = [
         "Cholesterol (mg)": 0
     },
     {
-        "Group": 'spices & herbs',
+        "Group": 'seasoning',
         "Name": 'marjoram, dried',
         "FdcId": 170928,
         "Raw": true,
@@ -3645,7 +3645,7 @@ export const data = [
         "Cholesterol (mg)": 0
     },
     {
-        "Group": 'spices & herbs',
+        "Group": 'seasoning',
         "Name": 'oregano, dried',
         "FdcId": 171328,
         "Raw": true,
@@ -3671,7 +3671,7 @@ export const data = [
         "Cholesterol (mg)": 0
     },
     {
-        "Group": 'spices & herbs',
+        "Group": 'seasoning',
         "Name": 'parsley, dried',
         "FdcId": 170930,
         "Raw": true,
@@ -3697,7 +3697,7 @@ export const data = [
         "Cholesterol (mg)": 0
     },
     {
-        "Group": 'spices & herbs',
+        "Group": 'seasoning',
         "Name": 'rosemary, dried',
         "FdcId": 171333,
         "Raw": true,
@@ -3723,7 +3723,7 @@ export const data = [
         "Cholesterol (mg)": 0
     },
     {
-        "Group": 'spices & herbs',
+        "Group": 'seasoning',
         "Name": 'sage, ground',
         "FdcId": 170935,
         "Raw": true,
@@ -3749,7 +3749,7 @@ export const data = [
         "Cholesterol (mg)": 0
     },
     {
-        "Group": 'spices & herbs',
+        "Group": 'seasoning',
         "Name": 'savory, ground',
         "FdcId": 170936,
         "Raw": true,
@@ -3775,7 +3775,7 @@ export const data = [
         "Cholesterol (mg)": 0
     },
     {
-        "Group": 'spices & herbs',
+        "Group": 'seasoning',
         "Name": 'tarragon, dried',
         "FdcId": 170937,
         "Raw": true,
@@ -3801,7 +3801,7 @@ export const data = [
         "Cholesterol (mg)": 0
     },
     {
-        "Group": 'spices & herbs',
+        "Group": 'seasoning',
         "Name": 'thyme, dried',
         "FdcId": 170938,
         "Raw": true,
@@ -3827,7 +3827,7 @@ export const data = [
         "Cholesterol (mg)": 0
     },
     {
-        "Group": 'spices & herbs',
+        "Group": 'seasoning',
         "Name": 'allspice, ground',
         "FdcId": 171315,
         "Raw": true,
@@ -3853,7 +3853,7 @@ export const data = [
         "Cholesterol (mg)": 0
     },
     {
-        "Group": 'spices & herbs',
+        "Group": 'seasoning',
         "Name": 'black pepper',
         "FdcId": 170931,
         "Raw": true,
@@ -3879,7 +3879,7 @@ export const data = [
         "Cholesterol (mg)": 0
     },
     {
-        "Group": 'spices & herbs',
+        "Group": 'seasoning',
         "Name": 'cardamom',
         "FdcId": 170919,
         "Raw": true,
@@ -3905,7 +3905,7 @@ export const data = [
         "Cholesterol (mg)": 0
     },
     {
-        "Group": 'spices & herbs',
+        "Group": 'seasoning',
         "Name": 'red or cayenne pepper',
         "FdcId": 170932,
         "Raw": true,
@@ -3931,7 +3931,7 @@ export const data = [
         "Cholesterol (mg)": 0
     },
     {
-        "Group": 'spices & herbs',
+        "Group": 'seasoning',
         "Name": 'chili powder',
         "FdcId": 171319,
         "Raw": true,
@@ -3957,7 +3957,7 @@ export const data = [
         "Cholesterol (mg)": 0
     },
     {
-        "Group": 'spices & herbs',
+        "Group": 'seasoning',
         "Name": 'cinnamon, ground',
         "FdcId": 171320,
         "Raw": true,
@@ -3983,7 +3983,7 @@ export const data = [
         "Cholesterol (mg)": 0
     },
     {
-        "Group": 'spices & herbs',
+        "Group": 'seasoning',
         "Name": 'cloves, ground',
         "FdcId": 171321,
         "Raw": true,
@@ -4009,7 +4009,7 @@ export const data = [
         "Cholesterol (mg)": 0
     },
     {
-        "Group": 'spices & herbs',
+        "Group": 'seasoning',
         "Name": 'cumin seed',
         "FdcId": 170923,
         "Raw": true,
@@ -4035,7 +4035,7 @@ export const data = [
         "Cholesterol (mg)": 0
     },
     {
-        "Group": 'spices & herbs',
+        "Group": 'seasoning',
         "Name": 'curry powder',
         "FdcId": 170924,
         "Raw": true,
@@ -4061,7 +4061,7 @@ export const data = [
         "Cholesterol (mg)": 0
     },
     {
-        "Group": 'spices & herbs',
+        "Group": 'seasoning',
         "Name": 'fennel seed',
         "FdcId": 171323,
         "Raw": true,
@@ -4087,7 +4087,7 @@ export const data = [
         "Cholesterol (mg)": 0
     },
     {
-        "Group": 'spices & herbs',
+        "Group": 'seasoning',
         "Name": 'garlic powder',
         "FdcId": 171325,
         "Raw": true,
@@ -4113,7 +4113,7 @@ export const data = [
         "Cholesterol (mg)": 0
     },
     {
-        "Group": 'spices & herbs',
+        "Group": 'seasoning',
         "Name": 'ginger, ground',
         "FdcId": 170926,
         "Raw": true,
@@ -4139,7 +4139,7 @@ export const data = [
         "Cholesterol (mg)": 0
     },
     {
-        "Group": 'spices & herbs',
+        "Group": 'seasoning',
         "Name": 'mustard seed, ground',
         "FdcId": 170929,
         "Raw": true,
@@ -4165,7 +4165,7 @@ export const data = [
         "Cholesterol (mg)": 0
     },
     {
-        "Group": 'spices & herbs',
+        "Group": 'seasoning',
         "Name": 'nutmeg, ground',
         "FdcId": 171326,
         "Raw": true,
@@ -4191,7 +4191,7 @@ export const data = [
         "Cholesterol (mg)": 0
     },
     {
-        "Group": 'spices & herbs',
+        "Group": 'seasoning',
         "Name": 'onion powder',
         "FdcId": 171327,
         "Raw": true,
@@ -4217,7 +4217,7 @@ export const data = [
         "Cholesterol (mg)": 0
     },
     {
-        "Group": 'spices & herbs',
+        "Group": 'seasoning',
         "Name": 'paprika',
         "FdcId": 171329,
         "Raw": true,
@@ -4243,7 +4243,7 @@ export const data = [
         "Cholesterol (mg)": 0
     },
     {
-        "Group": 'spices & herbs',
+        "Group": 'seasoning',
         "Name": 'salt',
         "FdcId": 173468,
         "Raw": true,
@@ -4269,7 +4269,7 @@ export const data = [
         "Cholesterol (mg)": 0
     },
     {
-        "Group": 'spices & herbs',
+        "Group": 'seasoning',
         "Name": 'turmeric, ground',
         "FdcId": 172231,
         "Raw": true,
@@ -4295,7 +4295,7 @@ export const data = [
         "Cholesterol (mg)": 0
     },
     {
-        "Group": 'spices & herbs',
+        "Group": 'seasoning',
         "Name": 'horseradish, prepared',
         "FdcId": 173472,
         "Raw": true,
@@ -4321,7 +4321,7 @@ export const data = [
         "Cholesterol (mg)": 0
     },
     {
-        "Group": 'spices & herbs',
+        "Group": 'seasoning',
         "Name": 'mustard, yellow, prepared',
         "FdcId": 172234,
         "Raw": true,
@@ -4347,7 +4347,7 @@ export const data = [
         "Cholesterol (mg)": 0
     },
     {
-        "Group": 'spices & herbs',
+        "Group": 'seasoning',
         "Name": 'vinegar, cider',
         "FdcId": 173469,
         "Raw": true,
@@ -4373,7 +4373,7 @@ export const data = [
         "Cholesterol (mg)": 0
     },
     {
-        "Group": 'dips & gravies',
+        "Group": 'sauces',
         "Name": 'pesto sauce',
         "FdcId": 2345732,
         "Raw": true,
@@ -4399,7 +4399,7 @@ export const data = [
         "Cholesterol (mg)": 2.56
     },
     {
-        "Group": 'dips & gravies',
+        "Group": 'sauces',
         "Name": 'salsa, ready-to-serve',
         "FdcId": 174524,
         "Raw": true,
