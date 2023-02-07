@@ -96,6 +96,7 @@ export class TableElement extends LitElement {
 		}
 		thead {
 			font-size: 14px;
+			cursor: pointer;
 		}
 		tr:nth-child(even) {
 			background-color: #eee;
@@ -154,6 +155,10 @@ export class TableElement extends LitElement {
 		}
 	`;
 
+	handleClick(event) {
+		this.shadowRoot.querySelector('table-head-element').shadowRoot.querySelector('span').click();
+	};
+
 	render() {
 		return html`
 			<table>
@@ -161,7 +166,7 @@ export class TableElement extends LitElement {
 				<thead>
 					<tr>
 						${this.columns.map((column) => html`
-							<th>
+							<th @click=${this.handleClick}>
 								<table-head-element category=${column}></table-head-element>
 							</th>
 						`)}
