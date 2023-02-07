@@ -88,6 +88,7 @@ export class TableElement extends LitElement {
 		table {
 			table-layout: fixed;
 			border: 2px solid black;
+			border-radius: 5px;
 			padding: 5px;
 		}
 		caption {
