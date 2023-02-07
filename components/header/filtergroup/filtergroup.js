@@ -15,40 +15,42 @@ export class FilterGroupElement extends LitElement {
 
 	static styles = css`
 		:host {
-			display: flex;
-			align-content: center;
-			justify-content: center;
+			width: 200px;
+			height: 50px;
 		}
 		label {
+			border: 2px solid black;
+			border-radius: 10px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			user-select: none;
+			width: 100%;
+			height: 100%;
+			cursor: pointer;
 			font-family: "Gill Sans", sans-serif;
 			letter-spacing: 1px;
-			margin: auto;
-			padding: 0 5px;
 			font-size: 24px;
+			transition: .5s;
 			text-transform: capitalize;
 		}
 		input[type="checkbox"] {
-			cursor: pointer;
-			appearance: none;
-			width: 48px;
-			height: 48px;
-			border: 2px solid black;
-			background-clip: content-box;
-			padding: 6px;
-			border-radius: 6px;
-			transition: .5s;
+			display: none;
 		}
-		input[type="checkbox"]:checked {
+		input[type="checkbox"]:checked + label {
 			background-color: orange;
-			border-radius: 50%;
 		}
 	`;
 
 	render() {
 		return html`
 			<input @change=${this.handleChecked} type="checkbox" for=${this.label}>
-			<label for=${this.label}>${this.label}</label>
+			<label @click=${this.handleClick} for=${this.label}>${this.label}</label>
 		`;
+	}
+
+	handleClick() {
+		this.shadowRoot.querySelector('input').click();
 	}
 
 	async handleChecked(event) {

@@ -63,6 +63,7 @@ export class HeaderElement extends LitElement {
 			height: 200px;
 			display: flex;
 			flex-wrap: wrap;
+			gap: 10px;
 			align-content: center;
 			justify-content: center;
 		}
