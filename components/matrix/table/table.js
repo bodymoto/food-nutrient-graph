@@ -156,18 +156,6 @@ export class TableElement extends LitElement {
 		}
 	`;
 
-	handleClick(event) {
-		this.shadowRoot.querySelector('table-head-element').shadowRoot.querySelector('span').click();
-	};
-
-	returnFirstString(object) {
-		// returns the first string so that dynamically creating css classes have no whitespaces
-		if (object == undefined || !object.length) {
-			return;
-		}
-		return object['Group'].replace(/ .*/,"");
-	}
-
 	render() {
 		return html`
 			<table>
@@ -175,7 +163,7 @@ export class TableElement extends LitElement {
 				<thead>
 					<tr>
 						${this.columns.map((column) => html`
-							<th @click=${this.handleClick}>
+							<th>
 								<table-head-element category=${column}></table-head-element>
 							</th>
 						`)}
@@ -185,9 +173,8 @@ export class TableElement extends LitElement {
 				<tbody>
 					${
 						this.filteredData.map((object) => {
-							const attri = this.returnFirstString(object);
 							return html`
-							<tr class=${ attri }>
+							<tr class=${ object['Group'] }>
 								${this.columns.map((property) => {
 									return html`
 									<td>${object[property]}</td>
