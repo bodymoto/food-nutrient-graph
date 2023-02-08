@@ -97,14 +97,13 @@ export class TableElement extends LitElement {
 		}
 		thead {
 			font-size: 14px;
-			cursor: pointer;
-		}
-		tr:nth-child(even) {
-			background-color: #eee;
 		}
 		th {
 			padding: 7px;
 			border: 1px solid black;
+		}
+		tr:nth-child(even) {
+			background-color: #eee;
 		}
 		td:nth-child(1),
 		td:nth-child(2) {

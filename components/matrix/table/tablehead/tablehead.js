@@ -1,4 +1,4 @@
-import { LitElement, html } from 'lit';
+import { LitElement, html, css } from 'lit';
 
 export class TableHeadElement extends LitElement {
 
@@ -22,6 +22,12 @@ export class TableHeadElement extends LitElement {
 		await this.updateComplete;
 		this.dispatchEvent(new CustomEvent('selected-category', options));
 	}
+
+	static styles = css`
+		span {
+			cursor: pointer;
+		}
+	`;
 
 	render() {
 		return html`
