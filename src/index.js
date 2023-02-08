@@ -1,8 +1,11 @@
 import { MatrixElement } from '../components/matrix/matrix.js';
+import { HeaderElement } from '../components/header/header.js';
 import { data } from '../data.js';
 
+const header = document.createElement('header-element');
 const matrix = document.createElement('matrix-element');
 matrix.data = data;
+document.body.appendChild(header);
 document.body.appendChild(matrix);
 
 // Your render() method should follow these guidelines:
