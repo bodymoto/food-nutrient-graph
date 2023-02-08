@@ -160,6 +160,14 @@ export class TableElement extends LitElement {
 		this.shadowRoot.querySelector('table-head-element').shadowRoot.querySelector('span').click();
 	};
 
+	returnFirstString(object) {
+		// returns the first string so that dynamically creating css classes have no whitespaces
+		if (object == undefined || !object.length) {
+			return;
+		}
+		return object['Group'].replace(/ .*/,"");
+	}
+
 	render() {
 		return html`
 			<table>
@@ -177,8 +185,9 @@ export class TableElement extends LitElement {
 				<tbody>
 					${
 						this.filteredData.map((object) => {
+							const attri = this.returnFirstString(object);
 							return html`
-							<tr class=${object['Group'].replace(/ .*/,"")}>
+							<tr class=${ attri }>
 								${this.columns.map((property) => {
 									return html`
 									<td>${object[property]}</td>
