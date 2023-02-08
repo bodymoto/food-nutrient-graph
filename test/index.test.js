@@ -8,7 +8,7 @@ it('can render the dom', async () => {
 
 	const element = await fixture(matrix);
 	expect(element).dom.to.equal('<matrix-element></matrix-element>');
-	expect(element).shadowDom.to.equal('<header-element></header-element><table-element></table-element');
+	expect(element).shadowDom.to.equal('<hero-filter-element></hero-filter-element><table-element></table-element');
 });
 
 it('can set data attribute', async () => {

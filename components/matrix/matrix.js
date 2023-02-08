@@ -1,6 +1,6 @@
 import { LitElement, html, css } from 'lit';
 import { TableElement } from './table/table.js';
-import { HeaderElement } from './header/header.js';
+import { HeroFilterElement } from './herofilter/herofilter.js';
 
 export class MatrixElement extends LitElement {
 
@@ -31,7 +31,7 @@ export class MatrixElement extends LitElement {
 
 	render() {
 		return html`
-			<header-element .data=${ this.data }></header-element>
+			<hero-filter-element .data=${ this.data }></hero-filter-element>
 
 			<table-element .filteredData=${ this.filteredData }></table-element>
 		`;

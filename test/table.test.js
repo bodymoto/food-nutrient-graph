@@ -13,7 +13,7 @@ describe('TableElement', () => {
 
 	it('can set filteredData attribute', async () => {
     const filteredData = [{ group: 'test', name: 'test', carbs: 101 }];
-    const element = await fixture(html`<header-element .filteredData=${filteredData}></header-element>`);
+    const element = await fixture(html`<hero-filter-element .filteredData=${filteredData}></hero-filter-element>`);
     expect(element.filteredData).to.equal(filteredData);
   });
 
