@@ -34,7 +34,7 @@ export const data = [
         "Group": 'fruits',
         "Name": 'avocado',
         "FdcId": 171706,
-        "Raw": true,
+        
         "Portion": '1 fruit',
         "Measurement": null,
         "Grams (g)": 136,
@@ -60,7 +60,7 @@ export const data = [
         "Group": 'fruits',
         "Name": 'raspberries',
         "FdcId": 167755,
-        "Raw": true,
+        
         "Portion": '10 berries',
         "Measurement": null,
         "Grams (g)": 19,
@@ -86,7 +86,7 @@ export const data = [
         "Group": 'fruits',
         "Name": 'blueberries',
         "FdcId": 171711,
-        "Raw": true,
+        
         "Portion": '50 berries',
         "Measurement": null,
         "Grams (g)": 68,
@@ -112,7 +112,7 @@ export const data = [
         "Group": 'fruits',
         "Name": 'blackberries',
         "FdcId": 2344767,
-        "Raw": true,
+        
         "Portion": '1 berry',
         "Measurement": null,
         "Grams (g)": 5,
@@ -138,7 +138,7 @@ export const data = [
         "Group": 'fruits',
         "Name": 'coconut meat',
         "FdcId": 170169,
-        "Raw": true,
+        
         "Portion": '1 piece',
         "Measurement": '2"x 2"x 0.5"',
         "Grams (g)": 45,
@@ -164,7 +164,7 @@ export const data = [
         "Group": 'fruits',
         "Name": 'cranberries',
         "FdcId": 2344773,
-        "Raw": true,
+        
         "Portion": '1 berry',
         "Measurement": null,
         "Grams (g)": 2,
@@ -190,7 +190,7 @@ export const data = [
         "Group": 'fruits',
         "Name": 'raisins',
         "FdcId": 168165,
-        "Raw": true,
+        
         "Portion": '50 raisins',
         "Measurement": null,
         "Grams (g)": 26,
@@ -216,7 +216,7 @@ export const data = [
         "Group": 'fruits',
         "Name": 'st"Raw"berries',
         "FdcId": 167762,
-        "Raw": true,
+        
         "Portion": '1 medium',
         "Measurement": '1.25" dia',
         "Grams (g)": 12,
@@ -242,7 +242,7 @@ export const data = [
         "Group": 'fruits',
         "Name": 'lemons',
         "FdcId": 167746,
-        "Raw": true,
+        
         "Portion": '1 fruit',
         "Measurement": '2.125" dia',
         "Grams (g)": 58,
@@ -268,7 +268,7 @@ export const data = [
         "Group": 'fruits',
         "Name": 'lemon juice',
         "FdcId": 167747,
-        "Raw": true,
+        
         "Portion": '1fl oz',
         "Measurement": null,
         "Grams (g)": 30.5,
@@ -294,7 +294,7 @@ export const data = [
         "Group": 'fruits',
         "Name": 'limes',
         "FdcId": 168155,
-        "Raw": true,
+        
         "Portion": '1 fruit',
         "Measurement": '2" dia',
         "Grams (g)": 67,
@@ -320,7 +320,7 @@ export const data = [
         "Group": 'fruits',
         "Name": 'olives',
         "FdcId": 169096,
-        "Raw": true,
+        
         "Portion": '1 olive',
         "Measurement": null,
         "Grams (g)": 2.7,
@@ -346,7 +346,7 @@ export const data = [
         "Group": 'fruits',
         "Name": '"Water (g)"melon',
         "FdcId": 167765,
-        "Raw": true,
+        
         "Portion": '1 wedge',
         "Measurement": '1/16 melon',
         "Grams (g)": 286,
@@ -372,7 +372,7 @@ export const data = [
         "Group": 'fruits',
         "Name": 'apple cider',
         "FdcId": 2344813,
-        "Raw": true,
+        
         "Portion": '1fl oz',
         "Measurement": 'no ice',
         "Grams (g)": 31,
@@ -398,7 +398,7 @@ export const data = [
         "Group": 'vegetable',
         "Name": 'tomatoes',
         "FdcId": 170457,
-        "Raw": true,
+        
         "Portion": '1 large',
         "Measurement": '3" dia',
         "Grams (g)": 182,
@@ -424,7 +424,7 @@ export const data = [
         "Group": 'vegetable',
         "Name": 'tomato cherries',
         "FdcId": 170457,
-        "Raw": true,
+        
         "Portion": '1 cherry',
         "Measurement": null,
         "Grams (g)": 17,
@@ -450,7 +450,7 @@ export const data = [
         "Group": 'vegetable',
         "Name": 'artichokes',
         "FdcId": 169205,
-        "Raw": true,
+        
         "Portion": '1 medium',
         "Measurement": null,
         "Grams (g)": 128,
@@ -476,7 +476,7 @@ export const data = [
         "Group": 'vegetable',
         "Name": 'asparagus',
         "FdcId": 168389,
-        "Raw": true,
+        
         "Portion": '1 spear',
         "Measurement": '5.25"-7" long',
         "Grams (g)": 16,
@@ -502,7 +502,7 @@ export const data = [
         "Group": 'vegetable',
         "Name": 'bamboo shoots',
         "FdcId": 169210,
-        "Raw": true,
+        
         "Portion": '1 piece',
         "Measurement": '0.5" long',
         "Grams (g)": 76,
@@ -528,7 +528,7 @@ export const data = [
         "Group": 'vegetable',
         "Name": 'green bell peppers',
         "FdcId": 170427,
-        "Raw": true,
+        
         "Portion": '1 large',
         "Measurement": '3" dia',
         "Grams (g)": 164,
@@ -554,7 +554,7 @@ export const data = [
         "Group": 'vegetable',
         "Name": 'yellow bell peppers',
         "FdcId": 169383,
-        "Raw": true,
+        
         "Portion": '1 pepper',
         "Measurement": '3" dia',
         "Grams (g)": 186,
@@ -580,7 +580,7 @@ export const data = [
         "Group": 'vegetable',
         "Name": 'serrano peppers',
         "FdcId": 169395,
-        "Raw": true,
+        
         "Portion": '1 pepper',
         "Measurement": null,
         "Grams (g)": 6.1,
@@ -606,7 +606,7 @@ export const data = [
         "Group": 'vegetable',
         "Name": 'broccoli',
         "FdcId": 170379,
-        "Raw": true,
+        
         "Portion": '1 stalk',
         "Measurement": null,
         "Grams (g)": 151,
@@ -632,7 +632,7 @@ export const data = [
         "Group": 'vegetable',
         "Name": 'brussels sprouts',
         "FdcId": 170383,
-        "Raw": true,
+        
         "Portion": '1 sprout',
         "Measurement": null,
         "Grams (g)": 19,
@@ -658,7 +658,7 @@ export const data = [
         "Group": 'vegetable',
         "Name": 'cauliflower',
         "FdcId": 169986,
-        "Raw": true,
+        
         "Portion": '1 head, medium',
         "Measurement": '5-6" dia',
         "Grams (g)": 588,
@@ -684,7 +684,7 @@ export const data = [
         "Group": 'vegetable',
         "Name": 'celery',
         "FdcId": 169988,
-        "Raw": true,
+        
         "Portion": '1 stalk',
         "Measurement": '7.25"-8" long',
         "Grams (g)": 40,
@@ -710,7 +710,7 @@ export const data = [
         "Group": 'vegetable',
         "Name": 'cucumbers',
         "FdcId": 168409,
-        "Raw": true,
+        
         "Portion": '1 veg',
         "Measurement": '8.25" long',
         "Grams (g)": 301,
@@ -736,7 +736,7 @@ export const data = [
         "Group": 'vegetable',
         "Name": 'eggplant',
         "FdcId": 169228,
-        "Raw": true,
+        
         "Portion": '1 unpeeled',
         "Measurement": '1.25lb',
         "Grams (g)": 548,
@@ -762,7 +762,7 @@ export const data = [
         "Group": 'vegetable',
         "Name": 'fennel',
         "FdcId": 169385,
-        "Raw": true,
+        
         "Portion": '1 bulb',
         "Measurement": null,
         "Grams (g)": 234,
@@ -788,7 +788,7 @@ export const data = [
         "Group": 'vegetable',
         "Name": 'garlic',
         "FdcId": 169230,
-        "Raw": true,
+        
         "Portion": '1 clove',
         "Measurement": null,
         "Grams (g)": 3,
@@ -814,7 +814,7 @@ export const data = [
         "Group": 'vegetable',
         "Name": 'green beans',
         "FdcId": 75101800,
-        "Raw": true,
+        
         "Portion": '1 bean',
         "Measurement": null,
         "Grams (g)": 6,
@@ -840,7 +840,7 @@ export const data = [
         "Group": 'vegetable',
         "Name": 'jalapeno peppers',
         "FdcId": 168576,
-        "Raw": true,
+        
         "Portion": '1 pepper',
         "Measurement": null,
         "Grams (g)": 14,
@@ -866,7 +866,7 @@ export const data = [
         "Group": 'vegetable',
         "Name": 'jicama',
         "FdcId": 170073,
-        "Raw": true,
+        
         "Portion": '1 medium',
         "Measurement": null,
         "Grams (g)": 659,
@@ -892,7 +892,7 @@ export const data = [
         "Group": 'vegetable',
         "Name": 'portabella mushrooms',
         "FdcId": 169255,
-        "Raw": true,
+        
         "Portion": '1 whole',
         "Measurement": null,
         "Grams (g)": 84,
@@ -918,7 +918,7 @@ export const data = [
         "Group": 'vegetable',
         "Name": 'okra',
         "FdcId": 169260,
-        "Raw": true,
+        
         "Portion": '8 pods',
         "Measurement": '3" long',
         "Grams (g)": 95,
@@ -944,7 +944,7 @@ export const data = [
         "Group": 'vegetable',
         "Name": 'onions',
         "FdcId": 170000,
-        "Raw": true,
+        
         "Portion": '1 medium',
         "Measurement": '2.5" dia',
         "Grams (g)": 110,
@@ -970,7 +970,7 @@ export const data = [
         "Group": 'vegetable',
         "Name": 'poblano peppers',
         "FdcId": 170497,
-        "Raw": true,
+        
         "Portion": '1 pepper',
         "Measurement": null,
         "Grams (g)": 45,
@@ -996,7 +996,7 @@ export const data = [
         "Group": 'vegetable',
         "Name": 'pickled cucumber',
         "FdcId": 168558,
-        "Raw": true,
+        
         "Portion": '1 spear, small',
         "Measurement": null,
         "Grams (g)": 35,
@@ -1022,7 +1022,7 @@ export const data = [
         "Group": 'vegetable',
         "Name": 'radishes',
         "FdcId": 169276,
-        "Raw": true,
+        
         "Portion": '1 medium',
         "Measurement": '0.75-1" dia',
         "Grams (g)": 4.5,
@@ -1048,7 +1048,7 @@ export const data = [
         "Group": 'vegetable',
         "Name": 'rhubarb',
         "FdcId": 167758,
-        "Raw": true,
+        
         "Portion": '1 stalk',
         "Measurement": null,
         "Grams (g)": 51,
@@ -1074,7 +1074,7 @@ export const data = [
         "Group": 'vegetable',
         "Name": 'rutabagas',
         "FdcId": 168454,
-        "Raw": true,
+        
         "Portion": '1 medium',
         "Measurement": null,
         "Grams (g)": 386,
@@ -1100,7 +1100,7 @@ export const data = [
         "Group": 'vegetable',
         "Name": 'scallions',
         "FdcId": 170005,
-        "Raw": true,
+        
         "Portion": '1 medium',
         "Measurement": '4.125" long',
         "Grams (g)": 15,
@@ -1126,7 +1126,7 @@ export const data = [
         "Group": 'vegetable',
         "Name": 'pea pods',
         "FdcId": 170010,
-        "Raw": true,
+        
         "Portion": '10 pods',
         "Measurement": null,
         "Grams (g)": 34,
@@ -1152,7 +1152,7 @@ export const data = [
         "Group": 'vegetable',
         "Name": 'turnips',
         "FdcId": 170465,
-        "Raw": true,
+        
         "Portion": '1 medium',
         "Measurement": null,
         "Grams (g)": 122,
@@ -1178,7 +1178,7 @@ export const data = [
         "Group": 'vegetable',
         "Name": 'baby zucchini',
         "FdcId": 168565,
-        "Raw": true,
+        
         "Portion": '1 medium',
         "Measurement": null,
         "Grams (g)": 11,
@@ -1204,7 +1204,7 @@ export const data = [
         "Group": 'vegetable',
         "Name": 'arugula',
         "FdcId": 169387,
-        "Raw": true,
+        
         "Portion": '1 leaf',
         "Measurement": null,
         "Grams (g)": 2,
@@ -1230,7 +1230,7 @@ export const data = [
         "Group": 'vegetable',
         "Name": 'beet greens',
         "FdcId": 170375,
-        "Raw": true,
+        
         "Portion": '1 leaf',
         "Measurement": null,
         "Grams (g)": 32,
@@ -1256,7 +1256,7 @@ export const data = [
         "Group": 'vegetable',
         "Name": 'bok choy',
         "FdcId": 170390,
-        "Raw": true,
+        
         "Portion": '1 leaf',
         "Measurement": null,
         "Grams (g)": 14,
@@ -1282,7 +1282,7 @@ export const data = [
         "Group": 'vegetable',
         "Name": 'broccoli raab',
         "FdcId": 170381,
-        "Raw": true,
+        
         "Portion": '1 stalk',
         "Measurement": null,
         "Grams (g)": 19,
@@ -1308,7 +1308,7 @@ export const data = [
         "Group": 'vegetable',
         "Name": 'cabbage',
         "FdcId": 169975,
-        "Raw": true,
+        
         "Portion": '1 leaf, large',
         "Measurement": null,
         "Grams (g)": 33,
@@ -1334,7 +1334,7 @@ export const data = [
         "Group": 'vegetable',
         "Name": 'chard',
         "FdcId": 169991,
-        "Raw": true,
+        
         "Portion": '1 leaf',
         "Measurement": null,
         "Grams (g)": 48,
@@ -1360,7 +1360,7 @@ export const data = [
         "Group": 'vegetable',
         "Name": 'endive',
         "FdcId": 168412,
-        "Raw": true,
+        
         "Portion": '1 head',
         "Measurement": null,
         "Grams (g)": 513,
@@ -1386,7 +1386,7 @@ export const data = [
         "Group": 'vegetable',
         "Name": 'iceberg lettuce',
         "FdcId": 169248,
-        "Raw": true,
+        
         "Portion": '1 head, medium',
         "Measurement": '6" dia',
         "Grams (g)": 539,
@@ -1412,7 +1412,7 @@ export const data = [
         "Group": 'vegetable',
         "Name": 'spinach',
         "FdcId": 168462,
-        "Raw": true,
+        
         "Portion": '1 leaf',
         "Measurement": null,
         "Grams (g)": 10,
@@ -1438,7 +1438,7 @@ export const data = [
         "Group": 'vegetable',
         "Name": '"Water (g)"cress',
         "FdcId": 170068,
-        "Raw": true,
+        
         "Portion": '10 sprigs',
         "Measurement": null,
         "Grams (g)": 25,
@@ -1464,7 +1464,7 @@ export const data = [
         "Group": 'meat',
         "Name": 'pork, bacon',
         "FdcId": 168324,
-        "Raw": false,
+        
         "Portion": '3oz',
         "Measurement": null,
         "Grams (g)": 85,
@@ -1490,7 +1490,7 @@ export const data = [
         "Group": 'meat',
         "Name": 'pork, smoked sausage',
         "FdcId": 174584,
-        "Raw": true,
+        
         "Portion": '1 link',
         "Measurement": '4" long',
         "Grams (g)": 68,
@@ -1516,7 +1516,7 @@ export const data = [
         "Group": 'meat',
         "Name": 'beef, steak, tenderloin',
         "FdcId": 2341246,
-        "Raw": true,
+        
         "Portion": '1 regular',
         "Measurement": null,
         "Grams (g)": 160,
@@ -1542,7 +1542,7 @@ export const data = [
         "Group": 'meat',
         "Name": 'beef, ground',
         "FdcId": 2341258,
-        "Raw": true,
+        
         "Portion": '1 cup',
         "Measurement": null,
         "Grams (g)": 225,
@@ -1568,7 +1568,7 @@ export const data = [
         "Group": 'meat',
         "Name": 'beef, roast',
         "FdcId": 2341252,
-        "Raw": true,
+        
         "Portion": '1 cup',
         "Measurement": null,
         "Grams (g)": 135,
@@ -1594,7 +1594,7 @@ export const data = [
         "Group": 'meat',
         "Name": 'chicken, ground',
         "FdcId": 171116,
-        "Raw": true,
+        
         "Portion": '4oz',
         "Measurement": null,
         "Grams (g)": 113,
@@ -1620,7 +1620,7 @@ export const data = [
         "Group": 'meat',
         "Name": 'turkey, ground',
         "FdcId": 171505,
-        "Raw": true,
+        
         "Portion": '1 patty, 4oz',
         "Measurement": null,
         "Grams (g)": 114,
@@ -1646,7 +1646,7 @@ export const data = [
         "Group": 'meat',
         "Name": 'ham, sliced',
         "FdcId": 2341283,
-        "Raw": true,
+        
         "Portion": '1 thin',
         "Measurement": null,
         "Grams (g)": 60,
@@ -1672,7 +1672,7 @@ export const data = [
         "Group": 'meat',
         "Name": 'bison',
         "FdcId": 2341326,
-        "Raw": true,
+        
         "Portion": '1 patty',
         "Measurement": null,
         "Grams (g)": 85,
@@ -1698,7 +1698,7 @@ export const data = [
         "Group": 'meat',
         "Name": 'venison sausage',
         "FdcId": 2341322,
-        "Raw": true,
+        
         "Portion": '1 patty',
         "Measurement": null,
         "Grams (g)": 35,
@@ -1724,7 +1724,7 @@ export const data = [
         "Group": 'meat',
         "Name": 'lamb, chop',
         "FdcId": 2341312,
-        "Raw": true,
+        
         "Portion": '1 chop',
         "Measurement": null,
         "Grams (g)": 90,
@@ -1750,7 +1750,7 @@ export const data = [
         "Group": 'meat',
         "Name": 'liver, chicken',
         "FdcId": 2341563,
-        "Raw": true,
+        
         "Portion": '1 liver',
         "Measurement": null,
         "Grams (g)": 22,
@@ -1776,7 +1776,7 @@ export const data = [
         "Group": 'meat',
         "Name": 'pork, belly',
         "FdcId": 2341307,
-        "Raw": true,
+        
         "Portion": '1 cubic inch',
         "Measurement": null,
         "Grams (g)": 17,
@@ -1802,7 +1802,7 @@ export const data = [
         "Group": 'meat',
         "Name": 'pork, ground',
         "FdcId": 2341268,
-        "Raw": true,
+        
         "Portion": '1 patty',
         "Measurement": null,
         "Grams (g)": 85,
@@ -1828,7 +1828,7 @@ export const data = [
         "Group": 'meat',
         "Name": 'duck, docile, meat only',
         "FdcId": 172410,
-        "Raw": true,
+        
         "Portion": '1 unit',
         "Measurement": 'yield from 1lb',
         "Grams (g)": 137,
@@ -1854,7 +1854,7 @@ export const data = [
         "Group": 'deli',
         "Name": 'turkey, white, rotisserie',
         "FdcId": 174613,
-        "Raw": true,
+        
         "Portion": '1 serving',
         "Measurement": '1.69oz',
         "Grams (g)": 48,
@@ -1880,7 +1880,7 @@ export const data = [
         "Group": 'deli',
         "Name": 'beef, roast',
         "FdcId": 174570,
-        "Raw": true,
+        
         "Portion": '1 slice oval',
         "Measurement": null,
         "Grams (g)": 9.3,
@@ -1906,7 +1906,7 @@ export const data = [
         "Group": 'deli',
         "Name": 'chicken breast',
         "FdcId": 173874,
-        "Raw": true,
+        
         "Portion": '1 slice',
         "Measurement": null,
         "Grams (g)": 12,
@@ -1932,7 +1932,7 @@ export const data = [
         "Group": 'deli',
         "Name": 'turkey breast, luncheon',
         "FdcId": 174572,
-        "Raw": true,
+        
         "Portion": '1 slice',
         "Measurement": null,
         "Grams (g)": 28,
@@ -1958,7 +1958,7 @@ export const data = [
         "Group": 'fish',
         "Name": 'cod, atlantic',
         "FdcId": 171955,
-        "Raw": true,
+        
         "Portion": '1 fillet',
         "Measurement": null,
         "Grams (g)": 231,
@@ -1984,7 +1984,7 @@ export const data = [
         "Group": 'fish',
         "Name": 'flounder',
         "FdcId": 174196,
-        "Raw": true,
+        
         "Portion": '1 fillet',
         "Measurement": null,
         "Grams (g)": 163,
@@ -2010,7 +2010,7 @@ export const data = [
         "Group": 'fish',
         "Name": 'halibut, atlantic/pacific',
         "FdcId": 174200,
-        "Raw": true,
+        
         "Portion": '0.5 fillet',
         "Measurement": null,
         "Grams (g)": 204,
@@ -2036,7 +2036,7 @@ export const data = [
         "Group": 'fish',
         "Name": 'salmon, wild, atlantic',
         "FdcId": 173686,
-        "Raw": true,
+        
         "Portion": '0.5 fillet',
         "Measurement": null,
         "Grams (g)": 198,
@@ -2062,7 +2062,7 @@ export const data = [
         "Group": 'fish',
         "Name": 'sea bass',
         "FdcId": 175142,
-        "Raw": true,
+        
         "Portion": '1 fillet',
         "Measurement": null,
         "Grams (g)": 129,
@@ -2088,7 +2088,7 @@ export const data = [
         "Group": 'fish',
         "Name": 'snapper',
         "FdcId": 2341698,
-        "Raw": true,
+        
         "Portion": '1 fillet',
         "Measurement": 'any size',
         "Grams (g)": 90,
@@ -2114,7 +2114,7 @@ export const data = [
         "Group": 'fish',
         "Name": 'tilapia',
         "FdcId": 175176,
-        "Raw": true,
+        
         "Portion": '1 fillet',
         "Measurement": null,
         "Grams (g)": 116,
@@ -2140,7 +2140,7 @@ export const data = [
         "Group": 'fish',
         "Name": 'rainbow trout, wild',
         "FdcId": 175154,
-        "Raw": true,
+        
         "Portion": '1 fillet',
         "Measurement": null,
         "Grams (g)": 159,
@@ -2166,7 +2166,7 @@ export const data = [
         "Group": 'fish',
         "Name": 'tuna, bluefin',
         "FdcId": 173706,
-        "Raw": true,
+        
         "Portion": '3oz',
         "Measurement": null,
         "Grams (g)": 85,
@@ -2192,7 +2192,7 @@ export const data = [
         "Group": 'shellfish',
         "Name": 'crab, blue',
         "FdcId": 174204,
-        "Raw": true,
+        
         "Portion": '1 crab',
         "Measurement": null,
         "Grams (g)": 21,
@@ -2218,7 +2218,7 @@ export const data = [
         "Group": 'shellfish',
         "Name": 'lobster',
         "FdcId": 174208,
-        "Raw": true,
+        
         "Portion": '1 lobster',
         "Measurement": null,
         "Grams (g)": 150,
@@ -2244,7 +2244,7 @@ export const data = [
         "Group": 'shellfish',
         "Name": 'mussels, blue',
         "FdcId": 174216,
-        "Raw": true,
+        
         "Portion": '1 medium',
         "Measurement": null,
         "Grams (g)": 16,
@@ -2270,7 +2270,7 @@ export const data = [
         "Group": 'shellfish',
         "Name": 'mollusk, oyster, pacific',
         "FdcId": 174219,
-        "Raw": true,
+        
         "Portion": '1 medium',
         "Measurement": null,
         "Grams (g)": 50,
@@ -2296,7 +2296,7 @@ export const data = [
         "Group": 'shellfish',
         "Name": 'mollusks, scallop',
         "FdcId": 174220,
-        "Raw": true,
+        
         "Portion": '3oz',
         "Measurement": null,
         "Grams (g)": 85,
@@ -2322,7 +2322,7 @@ export const data = [
         "Group": 'shellfish',
         "Name": 'mollusks, squid',
         "FdcId": 174223,
-        "Raw": true,
+        
         "Portion": '3oz',
         "Measurement": null,
         "Grams (g)": 85,
@@ -2348,7 +2348,7 @@ export const data = [
         "Group": 'dairy',
         "Name": 'eggs, whole',
         "FdcId": 171287,
-        "Raw": true,
+        
         "Portion": '1 large',
         "Measurement": null,
         "Grams (g)": 50,
@@ -2374,7 +2374,7 @@ export const data = [
         "Group": 'dairy',
         "Name": 'cream cheese',
         "FdcId": 169081,
-        "Raw": true,
+        
         "Portion": '1 cup',
         "Measurement": null,
         "Grams (g)": 240,
@@ -2400,7 +2400,7 @@ export const data = [
         "Group": 'dairy',
         "Name": 'coconut cream, canned, sweetened',
         "FdcId": 2343046,
-        "Raw": true,
+        
         "Portion": '1fl oz',
         "Measurement": 'no ice',
         "Grams (g)": 30,
@@ -2426,7 +2426,7 @@ export const data = [
         "Group": 'dairy',
         "Name": 'cream, half & half, fat free',
         "FdcId": 172212,
-        "Raw": true,
+        
         "Portion": '2tbsp',
         "Measurement": null,
         "Grams (g)": 29,
@@ -2452,7 +2452,7 @@ export const data = [
         "Group": 'dairy',
         "Name": 'sour cream, light',
         "FdcId": 173443,
-        "Raw": true,
+        
         "Portion": '1tbsp',
         "Measurement": null,
         "Grams (g)": 12,
@@ -2478,7 +2478,7 @@ export const data = [
         "Group": 'dairy',
         "Name": 'yogurt, plain, low fat',
         "FdcId": 170886,
-        "Raw": true,
+        
         "Portion": '1 container',
         "Measurement": '8oz',
         "Grams (g)": 227,
@@ -2504,7 +2504,7 @@ export const data = [
         "Group": 'dairy',
         "Name": 'cottage cheese',
         "FdcId": 2341152,
-        "Raw": true,
+        
         "Portion": '1 cup',
         "Measurement": null,
         "Grams (g)": 210,
@@ -2530,7 +2530,7 @@ export const data = [
         "Group": 'kernels',
         "Name": 'almonds, unsalted',
         "FdcId": 2342966,
-        "Raw": true,
+        
         "Portion": '1 nut',
         "Measurement": null,
         "Grams (g)": 1.2,
@@ -2556,7 +2556,7 @@ export const data = [
         "Group": 'kernels',
         "Name": 'brazil nuts',
         "FdcId": 2342969,
-        "Raw": true,
+        
         "Portion": '1 nut',
         "Measurement": null,
         "Grams (g)": 5,
@@ -2582,7 +2582,7 @@ export const data = [
         "Group": 'kernels',
         "Name": 'chia seeds',
         "FdcId": 170554,
-        "Raw": true,
+        
         "Portion": '1oz',
         "Measurement": null,
         "Grams (g)": 28.35,
@@ -2608,7 +2608,7 @@ export const data = [
         "Group": 'kernels',
         "Name": 'flax seeds',
         "FdcId": 2343063,
-        "Raw": true,
+        
         "Portion": '1 cup',
         "Measurement": null,
         "Grams (g)": 168,
@@ -2634,7 +2634,7 @@ export const data = [
         "Group": 'kernels',
         "Name": 'hazelnuts',
         "FdcId": 2342979,
-        "Raw": true,
+        
         "Portion": '1 nut',
         "Measurement": null,
         "Grams (g)": 1.5,
@@ -2660,7 +2660,7 @@ export const data = [
         "Group": 'kernels',
         "Name": 'hemp seeds',
         "FdcId": 170148,
-        "Raw": true,
+        
         "Portion": '3tbsp',
         "Measurement": null,
         "Grams (g)": 30,
@@ -2686,7 +2686,7 @@ export const data = [
         "Group": 'kernels',
         "Name": 'macadamia nuts',
         "FdcId": 170178,
-        "Raw": true,
+        
         "Portion": '1 cup',
         "Measurement": 'whole or halves',
         "Grams (g)": 134,
@@ -2712,7 +2712,7 @@ export const data = [
         "Group": 'kernels',
         "Name": 'peanuts',
         "FdcId": 172430,
-        "Raw": true,
+        
         "Portion": '1 cup',
         "Measurement": null,
         "Grams (g)": 146,
@@ -2738,7 +2738,7 @@ export const data = [
         "Group": 'kernels',
         "Name": 'pecans',
         "FdcId": 170182,
-        "Raw": true,
+        
         "Portion": '1 cup',
         "Measurement": 'halves',
         "Grams (g)": 99,
@@ -2764,7 +2764,7 @@ export const data = [
         "Group": 'kernels',
         "Name": 'pine nuts, dried',
         "FdcId": 170591,
-        "Raw": true,
+        
         "Portion": '10 nuts',
         "Measurement": null,
         "Grams (g)": 1.7,
@@ -2790,7 +2790,7 @@ export const data = [
         "Group": 'kernels',
         "Name": 'pistachios',
         "FdcId": 170184,
-        "Raw": true,
+        
         "Portion": '1 kernel',
         "Measurement": null,
         "Grams (g)": 0.7,
@@ -2816,7 +2816,7 @@ export const data = [
         "Group": 'kernels',
         "Name": 'poppy seeds',
         "FdcId": 171330,
-        "Raw": true,
+        
         "Portion": '1tbsp',
         "Measurement": null,
         "Grams (g)": 8.8,
@@ -2842,7 +2842,7 @@ export const data = [
         "Group": 'kernels',
         "Name": 'pumpkin seeds, unsalted',
         "FdcId": 2343056,
-        "Raw": true,
+        
         "Portion": '1 cup',
         "Measurement": 'without shell',
         "Grams (g)": 144,
@@ -2868,7 +2868,7 @@ export const data = [
         "Group": 'kernels',
         "Name": 'sesame seeds, whole, dried',
         "FdcId": 170150,
-        "Raw": true,
+        
         "Portion": '1tbsp',
         "Measurement": null,
         "Grams (g)": 9,
@@ -2894,7 +2894,7 @@ export const data = [
         "Group": 'kernels',
         "Name": 'sunflower seeds kernels, dried',
         "FdcId": 170562,
-        "Raw": true,
+        
         "Portion": '1 cup',
         "Measurement": null,
         "Grams (g)": 140,
@@ -2920,7 +2920,7 @@ export const data = [
         "Group": 'kernels',
         "Name": 'walnuts, black, dried',
         "FdcId": 170186,
-        "Raw": true,
+        
         "Portion": '1 cup',
         "Measurement": 'chopped',
         "Grams (g)": 125,
@@ -2946,7 +2946,7 @@ export const data = [
         "Group": 'beverages',
         "Name": 'almond milk, unsweetened',
         "FdcId": 174832,
-        "Raw": true,
+        
         "Portion": '1 cup',
         "Measurement": null,
         "Grams (g)": 262,
@@ -2972,7 +2972,7 @@ export const data = [
         "Group": 'beverages',
         "Name": 'chicken broth, ready-to-serve',
         "FdcId": 174536,
-        "Raw": false,
+        
         "Portion": '1 cup',
         "Measurement": null,
         "Grams (g)": 249,
@@ -2998,7 +2998,7 @@ export const data = [
         "Group": 'beverages',
         "Name": 'coconut milk',
         "FdcId": 2340794,
-        "Raw": true,
+        
         "Portion": '1fl oz',
         "Measurement": null,
         "Grams (g)": 30.5,
@@ -3024,7 +3024,7 @@ export const data = [
         "Group": 'beverages',
         "Name": 'coffee, brewed',
         "FdcId": 2345935,
-        "Raw": false,
+        
         "Portion": '1 cup',
         "Measurement": '8fl oz',
         "Grams (g)": 240,
@@ -3050,7 +3050,7 @@ export const data = [
         "Group": 'beverages',
         "Name": 'tea, kombucha',
         "FdcId": 2346079,
-        "Raw": true,
+        
         "Portion": '1 can or bottle',
         "Measurement": '12fl oz',
         "Grams (g)": 372,
@@ -3076,7 +3076,7 @@ export const data = [
         "Group": 'beverages',
         "Name": '"Water (g)", tap',
         "FdcId": 2346283,
-        "Raw": true,
+        
         "Portion": '1 bottle',
         "Measurement": '16.9fl oz',
         "Grams (g)": 507,
@@ -3102,7 +3102,7 @@ export const data = [
         "Group": 'fats & oils',
         "Name": 'cocoa butter',
         "FdcId": 171421,
-        "Raw": true,
+        
         "Portion": '1tbsp',
         "Measurement": null,
         "Grams (g)": 13.6,
@@ -3128,7 +3128,7 @@ export const data = [
         "Group": 'fats & oils',
         "Name": 'butter, no salt',
         "FdcId": 173430,
-        "Raw": true,
+        
         "Portion": '1 pat',
         "Measurement": '1" sq, 0.33" high',
         "Grams (g)": 5,
@@ -3154,7 +3154,7 @@ export const data = [
         "Group": 'fats & oils',
         "Name": 'avocado oil',
         "FdcId": 173573,
-        "Raw": true,
+        
         "Portion": '1tbsp',
         "Measurement": null,
         "Grams (g)": 14,
@@ -3180,7 +3180,7 @@ export const data = [
         "Group": 'fats & oils',
         "Name": 'coconut oil',
         "FdcId": 2345739,
-        "Raw": true,
+        
         "Portion": '1tbsp',
         "Measurement": null,
         "Grams (g)": 14,
@@ -3206,7 +3206,7 @@ export const data = [
         "Group": 'fats & oils',
         "Name": 'ghee, clarified butter',
         "FdcId": 2345725,
-        "Raw": true,
+        
         "Portion": '1tbsp',
         "Measurement": null,
         "Grams (g)": 14,
@@ -3232,7 +3232,7 @@ export const data = [
         "Group": 'fats & oils',
         "Name": 'olive oil',
         "FdcId": 2345743,
-        "Raw": true,
+        
         "Portion": '1tbsp',
         "Measurement": null,
         "Grams (g)": 14,
@@ -3258,7 +3258,7 @@ export const data = [
         "Group": 'fats & oils',
         "Name": 'lard',
         "FdcId": 2345723,
-        "Raw": true,
+        
         "Portion": '1tbsp',
         "Measurement": null,
         "Grams (g)": 12,
@@ -3284,7 +3284,7 @@ export const data = [
         "Group": 'fats & oils',
         "Name": 'russian dressing',
         "FdcId": 171005,
-        "Raw": true,
+        
         "Portion": '1 serving',
         "Measurement": '2tbsp',
         "Grams (g)": 30,
@@ -3310,7 +3310,7 @@ export const data = [
         "Group": 'fats & oils',
         "Name": 'caesar dressing, regular',
         "FdcId": 169055,
-        "Raw": true,
+        
         "Portion": '1 serving',
         "Measurement": '2tbsp',
         "Grams (g)": 30,
@@ -3336,7 +3336,7 @@ export const data = [
         "Group": 'fats & oils',
         "Name": 'ranch dressing, regular',
         "FdcId": 173592,
-        "Raw": true,
+        
         "Portion": '1 serving',
         "Measurement": '2tbsp',
         "Grams (g)": 30,
@@ -3362,7 +3362,7 @@ export const data = [
         "Group": 'fats & oils',
         "Name": 'french dressing, reduced fat',
         "FdcId": 171404,
-        "Raw": true,
+        
         "Portion": '1 serving',
         "Measurement": '2tbsp',
         "Grams (g)": 30,
@@ -3388,7 +3388,7 @@ export const data = [
         "Group": 'fats & oils',
         "Name": 'italian dressing, regular',
         "FdcId": 171019,
-        "Raw": true,
+        
         "Portion": '1tbsp',
         "Measurement": null,
         "Grams (g)": 14.7,
@@ -3414,7 +3414,7 @@ export const data = [
         "Group": 'fats & oils',
         "Name": 'mayonnaise',
         "FdcId": 167736,
-        "Raw": true,
+        
         "Portion": '1tbsp',
         "Measurement": null,
         "Grams (g)": 15,
@@ -3440,7 +3440,7 @@ export const data = [
         "Group": 'flour',
         "Name": 'cocoa powder, not reconstituted',
         "FdcId": 2340989,
-        "Raw": true,
+        
         "Portion": '1tbsp',
         "Measurement": null,
         "Grams (g)": 5,
@@ -3466,7 +3466,7 @@ export const data = [
         "Group": 'flour',
         "Name": 'soy flour, defatted',
         "FdcId": 174275,
-        "Raw": true,
+        
         "Portion": '1 cup',
         "Measurement": null,
         "Grams (g)": 105,
@@ -3492,7 +3492,7 @@ export const data = [
         "Group": 'flour',
         "Name": 'peanut flour, defatted',
         "FdcId": 174267,
-        "Raw": true,
+        
         "Portion": '1 cup',
         "Measurement": null,
         "Grams (g)": 60,
@@ -3518,7 +3518,7 @@ export const data = [
         "Group": 'flour',
         "Name": 'carob flour',
         "FdcId": 173755,
-        "Raw": true,
+        
         "Portion": '1 cup',
         "Measurement": null,
         "Grams (g)": 103,
@@ -3544,7 +3544,7 @@ export const data = [
         "Group": 'seasoning',
         "Name": 'basil, dried',
         "FdcId": 171317,
-        "Raw": true,
+        
         "Portion": '1tbsp',
         "Measurement": 'leaves',
         "Grams (g)": 2.1,
@@ -3570,7 +3570,7 @@ export const data = [
         "Group": 'seasoning',
         "Name": 'bay leaf',
         "FdcId": 170917,
-        "Raw": true,
+        
         "Portion": '1tbsp',
         "Measurement": 'crumbled',
         "Grams (g)": 1.8,
@@ -3596,7 +3596,7 @@ export const data = [
         "Group": 'seasoning',
         "Name": 'dill seed',
         "FdcId": 170925,
-        "Raw": true,
+        
         "Portion": '1tbsp',
         "Measurement": null,
         "Grams (g)": 6.6,
@@ -3622,7 +3622,7 @@ export const data = [
         "Group": 'seasoning',
         "Name": 'marjoram, dried',
         "FdcId": 170928,
-        "Raw": true,
+        
         "Portion": '1tbsp',
         "Measurement": null,
         "Grams (g)": 1.7,
@@ -3648,7 +3648,7 @@ export const data = [
         "Group": 'seasoning',
         "Name": 'oregano, dried',
         "FdcId": 171328,
-        "Raw": true,
+        
         "Portion": '1tsp',
         "Measurement": 'ground',
         "Grams (g)": 1.8,
@@ -3674,7 +3674,7 @@ export const data = [
         "Group": 'seasoning',
         "Name": 'parsley, dried',
         "FdcId": 170930,
-        "Raw": true,
+        
         "Portion": '1tbsp',
         "Measurement": null,
         "Grams (g)": 1.6,
@@ -3700,7 +3700,7 @@ export const data = [
         "Group": 'seasoning',
         "Name": 'rosemary, dried',
         "FdcId": 171333,
-        "Raw": true,
+        
         "Portion": '1tbsp',
         "Measurement": null,
         "Grams (g)": 3.3,
@@ -3726,7 +3726,7 @@ export const data = [
         "Group": 'seasoning',
         "Name": 'sage, ground',
         "FdcId": 170935,
-        "Raw": true,
+        
         "Portion": '1tbsp',
         "Measurement": null,
         "Grams (g)": 2,
@@ -3752,7 +3752,7 @@ export const data = [
         "Group": 'seasoning',
         "Name": 'savory, ground',
         "FdcId": 170936,
-        "Raw": true,
+        
         "Portion": '1tbsp',
         "Measurement": null,
         "Grams (g)": 4.4,
@@ -3778,7 +3778,7 @@ export const data = [
         "Group": 'seasoning',
         "Name": 'tarragon, dried',
         "FdcId": 170937,
-        "Raw": true,
+        
         "Portion": '1tbsp',
         "Measurement": 'ground',
         "Grams (g)": 4.8,
@@ -3804,7 +3804,7 @@ export const data = [
         "Group": 'seasoning',
         "Name": 'thyme, dried',
         "FdcId": 170938,
-        "Raw": true,
+        
         "Portion": '1tbsp',
         "Measurement": 'ground',
         "Grams (g)": 4.3,
@@ -3830,7 +3830,7 @@ export const data = [
         "Group": 'seasoning',
         "Name": 'allspice, ground',
         "FdcId": 171315,
-        "Raw": true,
+        
         "Portion": '1tbsp',
         "Measurement": null,
         "Grams (g)": 6,
@@ -3856,7 +3856,7 @@ export const data = [
         "Group": 'seasoning',
         "Name": 'black pepper',
         "FdcId": 170931,
-        "Raw": true,
+        
         "Portion": '1tbsp',
         "Measurement": 'ground',
         "Grams (g)": 6.9,
@@ -3882,7 +3882,7 @@ export const data = [
         "Group": 'seasoning',
         "Name": 'cardamom',
         "FdcId": 170919,
-        "Raw": true,
+        
         "Portion": '1tbsp',
         "Measurement": 'ground',
         "Grams (g)": 5.8,
@@ -3908,7 +3908,7 @@ export const data = [
         "Group": 'seasoning',
         "Name": 'red or cayenne pepper',
         "FdcId": 170932,
-        "Raw": true,
+        
         "Portion": '1tbsp',
         "Measurement": null,
         "Grams (g)": 5.3,
@@ -3934,7 +3934,7 @@ export const data = [
         "Group": 'seasoning',
         "Name": 'chili powder',
         "FdcId": 171319,
-        "Raw": true,
+        
         "Portion": '1tbsp',
         "Measurement": null,
         "Grams (g)": 8,
@@ -3960,7 +3960,7 @@ export const data = [
         "Group": 'seasoning',
         "Name": 'cinnamon, ground',
         "FdcId": 171320,
-        "Raw": true,
+        
         "Portion": '1tbsp',
         "Measurement": null,
         "Grams (g)": 7.8,
@@ -3986,7 +3986,7 @@ export const data = [
         "Group": 'seasoning',
         "Name": 'cloves, ground',
         "FdcId": 171321,
-        "Raw": true,
+        
         "Portion": '1tbsp',
         "Measurement": null,
         "Grams (g)": 6.5,
@@ -4012,7 +4012,7 @@ export const data = [
         "Group": 'seasoning',
         "Name": 'cumin seed',
         "FdcId": 170923,
-        "Raw": true,
+        
         "Portion": '1tbsp',
         "Measurement": 'whole',
         "Grams (g)": 6,
@@ -4038,7 +4038,7 @@ export const data = [
         "Group": 'seasoning',
         "Name": 'curry powder',
         "FdcId": 170924,
-        "Raw": true,
+        
         "Portion": '1tbsp',
         "Measurement": null,
         "Grams (g)": 6.3,
@@ -4064,7 +4064,7 @@ export const data = [
         "Group": 'seasoning',
         "Name": 'fennel seed',
         "FdcId": 171323,
-        "Raw": true,
+        
         "Portion": '1tbsp',
         "Measurement": 'whole',
         "Grams (g)": 5.8,
@@ -4090,7 +4090,7 @@ export const data = [
         "Group": 'seasoning',
         "Name": 'garlic powder',
         "FdcId": 171325,
-        "Raw": true,
+        
         "Portion": '1tbsp',
         "Measurement": null,
         "Grams (g)": 9.7,
@@ -4116,7 +4116,7 @@ export const data = [
         "Group": 'seasoning',
         "Name": 'ginger, ground',
         "FdcId": 170926,
-        "Raw": true,
+        
         "Portion": '1tbsp',
         "Measurement": null,
         "Grams (g)": 5.2,
@@ -4142,7 +4142,7 @@ export const data = [
         "Group": 'seasoning',
         "Name": 'mustard seed, ground',
         "FdcId": 170929,
-        "Raw": true,
+        
         "Portion": '1tbsp',
         "Measurement": null,
         "Grams (g)": 6.3,
@@ -4168,7 +4168,7 @@ export const data = [
         "Group": 'seasoning',
         "Name": 'nutmeg, ground',
         "FdcId": 171326,
-        "Raw": true,
+        
         "Portion": '1tbsp',
         "Measurement": null,
         "Grams (g)": 7,
@@ -4194,7 +4194,7 @@ export const data = [
         "Group": 'seasoning',
         "Name": 'onion powder',
         "FdcId": 171327,
-        "Raw": true,
+        
         "Portion": '1tbsp',
         "Measurement": null,
         "Grams (g)": 6.9,
@@ -4220,7 +4220,7 @@ export const data = [
         "Group": 'seasoning',
         "Name": 'paprika',
         "FdcId": 171329,
-        "Raw": true,
+        
         "Portion": '1tbsp',
         "Measurement": null,
         "Grams (g)": 6.8,
@@ -4246,7 +4246,7 @@ export const data = [
         "Group": 'seasoning',
         "Name": 'salt',
         "FdcId": 173468,
-        "Raw": true,
+        
         "Portion": '1 dash',
         "Measurement": null,
         "Grams (g)": 0.4,
@@ -4272,7 +4272,7 @@ export const data = [
         "Group": 'seasoning',
         "Name": 'turmeric, ground',
         "FdcId": 172231,
-        "Raw": true,
+        
         "Portion": '1tbsp',
         "Measurement": null,
         "Grams (g)": 9.4,
@@ -4298,7 +4298,7 @@ export const data = [
         "Group": 'seasoning',
         "Name": 'horseradish, prepared',
         "FdcId": 173472,
-        "Raw": true,
+        
         "Portion": '1tbsp',
         "Measurement": null,
         "Grams (g)": 15,
@@ -4324,7 +4324,7 @@ export const data = [
         "Group": 'seasoning',
         "Name": 'mustard, yellow, prepared',
         "FdcId": 172234,
-        "Raw": true,
+        
         "Portion": '1tsp',
         "Measurement": '1 packet',
         "Grams (g)": 5,
@@ -4350,7 +4350,7 @@ export const data = [
         "Group": 'seasoning',
         "Name": 'vinegar, cider',
         "FdcId": 173469,
-        "Raw": true,
+        
         "Portion": '1tbsp',
         "Measurement": null,
         "Grams (g)": 14.9,
@@ -4376,7 +4376,7 @@ export const data = [
         "Group": 'sauces',
         "Name": 'pesto sauce',
         "FdcId": 2345732,
-        "Raw": true,
+        
         "Portion": '1tbsp',
         "Measurement": null,
         "Grams (g)": 16,
@@ -4402,7 +4402,7 @@ export const data = [
         "Group": 'sauces',
         "Name": 'salsa, ready-to-serve',
         "FdcId": 174524,
-        "Raw": true,
+        
         "Portion": '2tbsp',
         "Measurement": null,
         "Grams (g)": 36,
