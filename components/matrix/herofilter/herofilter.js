@@ -21,7 +21,6 @@ export class HeroFilterElement extends LitElement {
 		this.filteredData = [];
 
 		this.addEventListener('groups-event', (event) => {
-
 			const category = event.detail.filter.label; // 'vegetable'
 			const selected = event.detail.filter.checked; // true
 
