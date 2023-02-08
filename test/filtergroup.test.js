@@ -20,7 +20,7 @@ describe('FilterGroupElement', () => {
     expect(element.checked).to.equal(true);
   });
 
-  it('toggled checked when checked is clicked', async () => {
+  it('toggled checked when checkbox is clicked', async () => {
     const element = await fixture(html`<filter-group-element></filter-group-element>`);
     expect(element.checked).to.equal(false);
 
@@ -28,6 +28,17 @@ describe('FilterGroupElement', () => {
     expect(element.checked).to.equal(true);
 
     element.shadowRoot.querySelector('input').click();
+    expect(element.checked).to.equal(false);
+  });
+
+  it('toggles checked when label click event is triggered', async () => {
+    const element = await fixture(html`<filter-group-element></filter-group-element`);
+    expect(element.checked).to.equal(false);
+
+    element.shadowRoot.querySelector('label').click();
+    expect(element.checked).to.equal(true);
+
+    element.shadowRoot.querySelector('label').click();
     expect(element.checked).to.equal(false);
   });
 

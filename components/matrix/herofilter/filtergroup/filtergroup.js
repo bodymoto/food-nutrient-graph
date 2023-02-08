@@ -44,13 +44,22 @@ export class FilterGroupElement extends LitElement {
 
 	render() {
 		return html`
-			<input @change=${this.handleChecked} type="checkbox" for=${this.label}>
+			<input @change=${this.handleChecked} type="checkbox" ?checked=${this.checked} for=${this.label}>
 			<label @click=${this.handleClick} for=${this.label}>${this.label}</label>
 		`;
 	}
 
-	handleClick() {
-		this.shadowRoot.querySelector('input').click();
+	async handleClick() {
+		this.checked = !this.checked;
+
+		const options = {
+			detail: {	filter: this },
+			bubbles: true,
+			composed: true
+		};
+
+    await this.updateComplete;
+		this.dispatchEvent(new CustomEvent('groups-event', options));
 	}
 
 	async handleChecked(event) {
