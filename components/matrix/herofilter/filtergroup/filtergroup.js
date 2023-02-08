@@ -19,8 +19,10 @@ export class FilterGroupElement extends LitElement {
 			height: 50px;
 		}
 		label {
-			border: 2px solid black;
+			background-color: #eee;
+			border: none;
 			border-radius: 10px;
+			box-shadow: 2px 2px 2px black;
 			display: flex;
 			align-items: center;
 			justify-content: center;
@@ -31,14 +33,16 @@ export class FilterGroupElement extends LitElement {
 			font-family: "Gill Sans", sans-serif;
 			letter-spacing: 1px;
 			font-size: 24px;
-			transition: .5s;
+			transition: .3s ease;
 			text-transform: capitalize;
 		}
 		input[type="checkbox"] {
 			display: none;
 		}
 		input[type="checkbox"]:checked + label {
-			background-color: #eee;
+			background-color: #fff;
+			border: 2px solid black;
+			box-shadow: none;
 		}
 	`;
 
