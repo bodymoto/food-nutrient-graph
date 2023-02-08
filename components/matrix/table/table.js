@@ -103,7 +103,7 @@ export class TableElement extends LitElement {
 			border: 1px solid black;
 		}
 		tr:nth-child(even) {
-			background-color: #eee;
+			background-color: #F0F8FF;
 		}
 		td:nth-child(1),
 		td:nth-child(2) {
@@ -115,43 +115,43 @@ export class TableElement extends LitElement {
 		}
 
 		.fruits td:nth-child(-n+2) {
-			background-color: #B0E0E6;
+			background-color: rgba(175, 238, 238, 0.5);
 		}
 		.vegetable td:nth-child(-n+2) {
-			background-color: #7CFC00;
+			background-color: rgba(0, 206, 209, 0.5);
 		}
 		.meat td:nth-child(-n+2) {
-			background-color: #FFA500;
+			background-color: rgba(205, 92, 92, 0.5);
 		}
 		.deli td:nth-child(-n+2) {
-			background-color: #DDA0DD;
+			background-color: rgba(221, 160, 221, 0.5);
 		}
 		.fish td:nth-child(-n+2) {
-			background-color: #FFA07A;
+			background-color: rgba(250, 128, 114, 0.5);
 		}
 		.shellfish td:nth-child(-n+2) {
-			background-color: #00FFFF;
+			background-color: rgba(230, 230, 250, 0.5);
 		}
 		.dairy td:nth-child(-n+2) {
-			background-color: #F0FFFF;
+			background-color: rgba(255, 248, 220, 0.5);
 		}
 		.kernels td:nth-child(-n+2) {
-			background-color: #FFD700;
+			background-color: rgba(240, 230, 140, 0.5);
 		}
 		.beverages td:nth-child(-n+2) {
-			background-color: #F5F5DC;
+			background-color: rgba(248, 248, 255, 0.5);
 		}
 		.fats td:nth-child(-n+2) {
-			background-color: #FFFFE0;
+			background-color: rgba(255, 215, 0, 0.5);
 		}
 		.flour td:nth-child(-n+2) {
-			background-color: #D2B48C;
+			background-color: rgba(222, 184, 135, 0.5);
 		}
 		.seasoning td:nth-child(-n+2) {
-			background-color: #8FBC8F;
+			background-color: rgba(255, 182, 193, 0.5);
 		}
 		.sauces td:nth-child(-n+2) {
-			background-color: #FFC0CB;
+			background-color: rgba(255, 99, 71, 0.5);
 		}
 	`;
 
