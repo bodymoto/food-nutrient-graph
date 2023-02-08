@@ -1,5 +1,5 @@
 import { expect, fixture, html } from '@open-wc/testing';
-import '../components/header/header.js';
+import '../components/matrix/header/header.js';
 
 describe('HeaderElement', () => {
 

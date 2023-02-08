@@ -136,7 +136,7 @@ export class TableElement extends LitElement {
 		.dairy td:nth-child(-n+2) {
 			background-color: #F0FFFF;
 		}
-		.nuts td:nth-child(-n+2) {
+		.kernels td:nth-child(-n+2) {
 			background-color: #FFD700;
 		}
 		.beverages td:nth-child(-n+2) {
@@ -148,10 +148,10 @@ export class TableElement extends LitElement {
 		.flour td:nth-child(-n+2) {
 			background-color: #D2B48C;
 		}
-		.spices td:nth-child(-n+2) {
+		.seasoning td:nth-child(-n+2) {
 			background-color: #8FBC8F;
 		}
-		.dips td:nth-child(-n+2) {
+		.sauces td:nth-child(-n+2) {
 			background-color: #FFC0CB;
 		}
 	`;

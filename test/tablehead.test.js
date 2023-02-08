@@ -1,5 +1,5 @@
 import { expect, fixture, html, oneEvent } from '@open-wc/testing';
-import '../components/table/tablehead/tablehead.js';
+import '../components/matrix/table/tablehead/tablehead.js';
 
 describe('TableHeadElement', () => {
 

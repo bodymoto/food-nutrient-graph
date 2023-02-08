@@ -1,10 +1,10 @@
 import { expect, fixture, html } from '@open-wc/testing';
-import '../components/display.js';
+import '../components/matrix/matrix.js';
 
-describe('DisplayElement', () => {
+describe('MatrixElement', () => {
 
 	it('has default values for properties', async () => {
-		const element = await fixture(html`<display-element></display-element>`);
+		const element = await fixture(html`<matrix-element></matrix-element>`);
 		
 		expect(element.data).to.deep.equal([]);
 		expect(element.filteredData).to.deep.equal([]);
@@ -12,13 +12,13 @@ describe('DisplayElement', () => {
 
 	it('can set data attribute', async () => {
 		const data = [{ group: 'test', name: 'test', carbs: 101 }];
-		const element = await fixture(html`<display-element .data=${data}></display-element>`);
+		const element = await fixture(html`<matrix-element .data=${data}></matrix-element>`);
 
 		expect(element.data).to.equal(data);
 	});
 
   it('can trigger the event listener', async () => {
-    const element = await fixture(html`<display-element></display-element>`);
+    const element = await fixture(html`<matrix-element></matrix-element>`);
 
     const options = {
       detail: {

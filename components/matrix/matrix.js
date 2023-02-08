@@ -2,7 +2,7 @@ import { LitElement, html, css } from 'lit';
 import { TableElement } from './table/table.js';
 import { HeaderElement } from './header/header.js';
 
-export class DisplayElement extends LitElement {
+export class MatrixElement extends LitElement {
 
 	static properties = {
 		data: { type: Array },
@@ -38,4 +38,4 @@ export class DisplayElement extends LitElement {
 	}
 };
 
-customElements.define('display-element', DisplayElement);
+customElements.define('matrix-element', MatrixElement);

@@ -1,5 +1,5 @@
 import { expect, fixture, html, oneEvent } from '@open-wc/testing';
-import '../components/header/filtergroup/filtergroup.js';
+import '../components/matrix/header/filtergroup/filtergroup.js';
 
 describe('FilterGroupElement', () => {
 

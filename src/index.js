@@ -1,9 +1,9 @@
-import { DisplayElement } from '../components/display.js';
+import { MatrixElement } from '../components/matrix/matrix.js';
 import { data } from '../data.js';
 
-const display = document.createElement('display-element');
-display.data = data;
-document.body.appendChild(display);
+const matrix = document.createElement('matrix-element');
+matrix.data = data;
+document.body.appendChild(matrix);
 
 // Your render() method should follow these guidelines:
 // Avoid changing the component's state
