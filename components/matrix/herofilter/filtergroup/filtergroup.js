@@ -38,7 +38,7 @@ export class FilterGroupElement extends LitElement {
 			display: none;
 		}
 		input[type="checkbox"]:checked + label {
-			background-color: orange;
+			background-color: #eee;
 		}
 	`;
 
