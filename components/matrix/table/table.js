@@ -158,7 +158,7 @@ export class TableElement extends LitElement {
 	render() {
 		return html`
 			<table>
-				<caption>Keto dieting matrix</caption>
+				<caption>Keto Dieting Matrix</caption>
 				<thead>
 					<tr>
 						${this.columns.map((column) => html`
