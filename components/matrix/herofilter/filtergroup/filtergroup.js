@@ -19,7 +19,6 @@ export class FilterGroupElement extends LitElement {
 			height: 36px;
 		}
 		label {
-			margin: 10px;
 			border-radius: 5px;
 			background-color: rgba(238, 238, 238, 0.6);
 			border: none;
