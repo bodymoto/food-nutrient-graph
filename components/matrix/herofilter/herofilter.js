@@ -59,10 +59,11 @@ export class HeroFilterElement extends LitElement {
 	static styles = css`
 		:host {
 			margin: 20px;
+
 			height: 200px;
 			display: flex;
 			flex-wrap: wrap;
-			gap: 10px;
+			gap: 2px;
 			align-content: center;
 			justify-content: center;
 		}

@@ -87,23 +87,24 @@ export class TableElement extends LitElement {
 		}
 		table {
 			table-layout: fixed;
-			border: 2px solid black;
+			
 			border-radius: 5px;
 			padding: 5px;
 		}
 		caption {
-			padding: 10px;
 			caption-side: bottom;
 		}
-		thead {
-			font-size: 14px;
+		caption span {
+			padding: 0 10px;
 		}
 		th {
+			font-size: 14px;
 			padding: 7px;
-			border: 1px solid black;
+			border: 0.5px solid black;
+			font-weight: 600;
 		}
 		tr:nth-child(even) {
-			background-color: #F0F8FF;
+			background-color: rgba(238, 238, 238, 0.5);
 		}
 		td:nth-child(1),
 		td:nth-child(2) {
@@ -153,12 +154,16 @@ export class TableElement extends LitElement {
 		.sauce td:nth-child(-n+2) {
 			background-color: rgba(255, 99, 71, 0.5);
 		}
+
+		span {
+			font-size: 12px;
+			padding: 0 3px;
+		}
 	`;
 
 	render() {
 		return html`
 			<table>
-				<caption>Keto Dieting Matrix</caption>
 				<thead>
 					<tr>
 						${this.columns.map((column) => html`
@@ -182,7 +187,32 @@ export class TableElement extends LitElement {
 							`;
 					})}
 				</tbody>
+				<caption>
+				<span>
+					"g" = gram,
+					"mg" = milligram,
+					"ss" = serving size,
+					"mu" = measurement,
+					"wgt" = weight,
+					"wat" = water,
+					"prot" = protein,
+					"carbs" = carbohydrates,
+					"fib" = fiber,
+					"sug" = sugar,
+					"gluc" = glucose,
+					"lact" = lactose,
+					"ca" = calcium,
+					"fe" = iron,
+					"mg" = magnesium,
+					"p" = phosphorus,
+					"k" = potassium,
+					"na" = sodium,
+					"cl" = cholesterol
+				</span>
+				<p>Keto Dieting Matrix</p>
+				</caption>
 			</table>
+
 		`;
 	}
 };

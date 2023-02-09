@@ -15,11 +15,13 @@ export class FilterGroupElement extends LitElement {
 
 	static styles = css`
 		:host {
-			width: 100px;
-			height: 100px;
+			width: 480px;
+			height: 36px;
 		}
 		label {
-			background-color: rgba(238, 238, 238, 0.3);
+			margin: 10px;
+			border-radius: 5px;
+			background-color: rgba(238, 238, 238, 0.6);
 			border: none;
 			box-shadow: 2px 2px 2px black;
 			display: flex;
@@ -31,7 +33,7 @@ export class FilterGroupElement extends LitElement {
 			cursor: pointer;
 			font-family: "Gill Sans", sans-serif;
 			letter-spacing: 1px;
-			font-size: 20px;
+			font-size: 16px;
 			transition: .3s ease;
 			text-transform: capitalize;
 		}
