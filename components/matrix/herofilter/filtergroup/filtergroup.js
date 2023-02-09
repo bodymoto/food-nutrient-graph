@@ -15,13 +15,12 @@ export class FilterGroupElement extends LitElement {
 
 	static styles = css`
 		:host {
-			width: 200px;
-			height: 50px;
+			width: 100px;
+			height: 100px;
 		}
 		label {
-			background-color: #eee;
+			background-color: rgba(238, 238, 238, 0.3);
 			border: none;
-			border-radius: 10px;
 			box-shadow: 2px 2px 2px black;
 			display: flex;
 			align-items: center;
@@ -32,7 +31,7 @@ export class FilterGroupElement extends LitElement {
 			cursor: pointer;
 			font-family: "Gill Sans", sans-serif;
 			letter-spacing: 1px;
-			font-size: 24px;
+			font-size: 20px;
 			transition: .3s ease;
 			text-transform: capitalize;
 		}
@@ -41,7 +40,7 @@ export class FilterGroupElement extends LitElement {
 		}
 		input[type="checkbox"]:checked + label {
 			background-color: #fff;
-			border: 2px solid black;
+			border: 1px solid black;
 			box-shadow: none;
 		}
 	`;
