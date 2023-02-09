@@ -114,20 +114,20 @@ export class TableElement extends LitElement {
 			padding: 10px;
 		}
 
-		.fruits td:nth-child(-n+2) {
+		.fruit td:nth-child(-n+2) {
 			background-color: rgba(175, 238, 238, 0.5);
 		}
 		.vegetable td:nth-child(-n+2) {
 			background-color: rgba(0, 206, 209, 0.5);
 		}
 		.meat td:nth-child(-n+2) {
-			background-color: rgba(205, 92, 92, 0.5);
+			background-color: rgba(220, 20, 60, 0.5);
 		}
 		.deli td:nth-child(-n+2) {
 			background-color: rgba(221, 160, 221, 0.5);
 		}
 		.fish td:nth-child(-n+2) {
-			background-color: rgba(250, 128, 114, 0.5);
+			background-color: rgba(210, 105, 30, 0.5);
 		}
 		.shellfish td:nth-child(-n+2) {
 			background-color: rgba(230, 230, 250, 0.5);
@@ -138,10 +138,10 @@ export class TableElement extends LitElement {
 		.kernels td:nth-child(-n+2) {
 			background-color: rgba(240, 230, 140, 0.5);
 		}
-		.beverages td:nth-child(-n+2) {
-			background-color: rgba(248, 248, 255, 0.5);
+		.drink td:nth-child(-n+2) {
+			background-color: rgba(135, 206, 250, 0.5);
 		}
-		.fats td:nth-child(-n+2) {
+		.lipids td:nth-child(-n+2) {
 			background-color: rgba(255, 215, 0, 0.5);
 		}
 		.flour td:nth-child(-n+2) {
@@ -150,7 +150,7 @@ export class TableElement extends LitElement {
 		.seasoning td:nth-child(-n+2) {
 			background-color: rgba(255, 182, 193, 0.5);
 		}
-		.sauces td:nth-child(-n+2) {
+		.sauce td:nth-child(-n+2) {
 			background-color: rgba(255, 99, 71, 0.5);
 		}
 	`;
