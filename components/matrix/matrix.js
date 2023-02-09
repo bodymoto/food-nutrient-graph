@@ -1,4 +1,4 @@
-import { LitElement, html, css } from 'lit';
+import { LitElement, html } from 'lit';
 import { TableElement } from './table/table.js';
 import { HeroFilterElement } from './herofilter/herofilter.js';
 
