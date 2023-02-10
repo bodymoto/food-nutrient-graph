@@ -103,7 +103,7 @@ export class HeaderElement extends LitElement {
 				</ol>
 			</div>
 			<div class="two">
-				<img src="citrus-fruits_monicore.jpg" alt="A freshly cut lemon on top a basket of oranges and limes" />
+				<img src="../components/header/citrus-fruits_monicore.jpg" alt="A freshly cut lemon on top a basket of oranges and limes" />
 			</div>
 		</div>
 		`;

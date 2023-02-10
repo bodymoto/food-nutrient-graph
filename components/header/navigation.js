@@ -35,7 +35,7 @@ export class NavElement extends LitElement {
 				</nav>
 			</div>
 			<div>KETOMOTO</div>
-			<div>sign up</div>
+			<div>&copy;2023</div>
 		`;
 	}
 };
