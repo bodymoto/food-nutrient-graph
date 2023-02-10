@@ -1,5 +1,43 @@
-import { LitElement, html } from 'lit';
+import { LitElement, html, css } from 'lit';
 
-export class NavElement extends LitElement {};
+export class NavElement extends LitElement {
+	static properties = {}
+
+	constructor() { super(); }
+
+	static styles = css`
+		:host {
+			display: flex;
+			align-content: center;
+			justify-content: center;
+			font-family: 'Raleway', sans-serif;
+			height: 50px;
+		}
+		nav {
+			display: flex;
+			margin: auto;
+		}
+		nav div {
+			padding: 0 20px;
+		}
+		div {
+			margin: auto;
+		}
+	`;
+
+	render() {
+		return html`
+			<div>
+				<nav>
+					<div>application</div>
+					<div>our future</div>
+					<div>show support</div>
+				</nav>
+			</div>
+			<div>KETOMOTO</div>
+			<div>sign up</div>
+		`;
+	}
+};
 
 customElements.define('nav-element', NavElement);
