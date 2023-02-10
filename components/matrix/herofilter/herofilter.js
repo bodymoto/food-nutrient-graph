@@ -65,6 +65,9 @@ export class HeroFilterElement extends LitElement {
 			gap: 2px;
 			align-content: center;
 			justify-content: center;
+			border-top: 1px solid black;
+			padding-top: 20px;
+			border-radius: 5px;
 		}
 	`;
 
