@@ -1,5 +1,5 @@
 import { LitElement, html, css } from 'lit';
-import { NavElement } from '../navigation.js';
+import { NavElement } from './navigation.js';
 
 export class HeaderElement extends LitElement {
 	static properties = {}
