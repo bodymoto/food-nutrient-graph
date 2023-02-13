@@ -30,8 +30,7 @@ export class NavElement extends LitElement {
 			<div>
 				<nav>
 					<div>application</div>
-					<div>our future</div>
-					<div>show support</div>
+					<div>about</div>
 				</nav>
 			</div>
 			<div>KETOMOTO</div>
