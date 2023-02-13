@@ -5,10 +5,40 @@ export class FooterElement extends LitElement {
 
 	constructor() { super(); }
 
-	static styles = css``;
+	static styles = css`
+		footer {
+			display: flex;
+			align-content: center;
+			justify-content: center;
+			font-family: 'Raleway', sans-serif;
+			height: 220px;
+			opacity: 0.7;
+		}
+		div {
+			display: flex;
+			align-content: center;
+			justify-content: center;
+			margin: auto;
+		}
+		h4 {
+			font-size: 22px;
+			margin-right: 20px;
+		}
+		p {
+			font-size: 16px;
+			margin: auto;
+		}
+	`;
 
 	render() {
-		return html``;
+		return html`
+		<footer>
+			<div>
+				<h4>KETOMOTO</h4>
+				<p>&copy;2023</p>
+			</div>
+		</footer>
+		`;
 	}
 };
 
