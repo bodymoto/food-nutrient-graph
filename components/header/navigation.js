@@ -25,12 +25,23 @@ export class NavElement extends LitElement {
 		}
 	`;
 
+	app() {
+		const app = document.body.querySelector('#application');
+		console.log(app);
+		app.scrollIntoView();	
+	}
+
+	about() {
+		const about = document.body.querySelector('#about');
+		about.scrollIntoView();
+	}
+
 	render() {
 		return html`
 			<div>
 				<nav>
-					<div>application</div>
-					<div>about</div>
+					<div @click=${this.app}>application</div>
+					<div @click=${this.about}>about</div>
 				</nav>
 			</div>
 			<div>KETOMOTO</div>
