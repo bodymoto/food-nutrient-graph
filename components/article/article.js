@@ -6,34 +6,52 @@ export class ArticleElement extends LitElement {
 	constructor() { super(); }
 
 	static styles = css`
-		div {
-			height: 600px;
-			border: 1px solid black;
+		section {
+			font-family: 'Raleway', sans-serif;
+			padding: 80px;
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+		}
+		h3 {
+			font-size: 28px;
+		}
+		p {
+			padding: 10px 80px;
+			font-size: 18px;
+			width: 520px;
+			letter-spacing: .7px;
+			line-height: 24px;
+		}
+		.image {
+			margin: auto;
+			width: 540px;
+		}
+		img {
+			width: 100%;
+			border-radius: 40px;
 		}
 	`;
 
 	render() {
 		return html`
+			<section>
 			<div>
-			// We are not (yet) perfect.
-				Not seeing a food listed?
-				Provide support and help make the world better.
+				<h3>Why build a food graph?</h3>
+				<p>
+					Food graphs, or food lists, are prevalent throughout the keto community, but often distributed throughout "top food" articles, hidden behind questionaires, or simply require a lot of research to connect the dots. My objective was to simplify and consolidate this effort into a single, straightforward graph.
+				</p>
 
-			<br/>
-
-			// What's in store for the future of Ketomoto?
-				Describe why keto is so important and how building out better tools will enable others (by being easier to adopt change) to better themselves. If the project continues to gain traction, new tools will role out, possible blog/articles, but ultimately would like to innovate in the space avoiding previous methods of mass articles and buzzwords.
-
-			<br/>
-
-			// Show your support.
-				Provide a way for people to donate. Set a goal. Show total donations for the previous month. And a mechanism to like, with a visible counter.
-
-			<br/>
-
-			// Add a footer element.
-
+				<h3>Source: USDA FoodData Central.</h3>
+				<p>
+					The information provided here is sourced from the <a href="https://fdc.nal.usda.gov/">USDA website</a>. To learn more about a specific food, simply copy the FDCID number listed in Ketomoto's food graph and search by the FDCID on the USDA <a href="https://fdc.nal.usda.gov/">website</a>.
+				</p>
 			</div>
+			<div class="image">
+				<div>
+					<img src="../components/article/cropland_tom-fisk.jpg" alt="">
+				</div>
+			</div>
+			</section>
 		`;
 	}
 };
