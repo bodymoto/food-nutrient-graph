@@ -14,6 +14,7 @@ export class NavElement extends LitElement {
 			height: 50px;
 		}
 		nav {
+			cursor: pointer;
 			display: flex;
 			margin: auto;
 		}
