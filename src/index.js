@@ -10,6 +10,8 @@ const article = document.createElement('article-element');
 const footer = document.createElement('footer-element');
 
 matrix.data = data;
+matrix.id = 'application';
+article.id = 'about';
 
 document.body.appendChild(header);
 document.body.appendChild(matrix);
