@@ -43,7 +43,7 @@ export class ArticleElement extends LitElement {
 
 				<h3>Source: USDA FoodData Central.</h3>
 				<p>
-					The information provided here is sourced from the <a href="https://fdc.nal.usda.gov/">USDA website</a>. To learn more about a specific food, simply copy the FDCID number listed in Ketomoto's food graph and search by the FDCID on the USDA <a href="https://fdc.nal.usda.gov/">website</a>.
+					The information provided here is sourced from the <a href="https://fdc.nal.usda.gov/">USDA website</a>. To learn more about a specific food, simply copy the FDCID number listed in KETO GRAPH's food graph and search by the FDCID on the USDA <a href="https://fdc.nal.usda.gov/">website</a>.
 				</p>
 			</div>
 			<div class="image">

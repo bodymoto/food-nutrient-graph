@@ -6,7 +6,9 @@ export class SearchElement extends LitElement {
 	constructor() { super(); }
 
 	render() {
-		return html``;
+		return html`
+			
+		`;
 	}
 };
 

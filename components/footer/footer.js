@@ -34,7 +34,7 @@ export class FooterElement extends LitElement {
 		return html`
 		<footer>
 			<div>
-				<h4>KETOMOTO</h4>
+				<h4>KETO GRAPH</h4>
 				<p>&copy;2023</p>
 			</div>
 		</footer>

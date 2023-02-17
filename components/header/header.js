@@ -78,7 +78,7 @@ export class HeaderElement extends LitElement {
 		return html`
 		<nav-element></nav-element>
 		<div class="headline">
-			<h1>KETOMOTO</h1>
+			<h1>KETO GRAPH</h1>
 			<h2>A keto dieting graph to aid in planning your diet.</h2>
 			<p>The ketogenic diet is gaining popularity for its numerous health benefits, including weight loss, improved insulin sensitivity, increased energy, and enhanced brain function. By limiting carbohydrate intake and increasing healthy fat consumption, the body enters a state of ketosis where it burns fat for energy, resulting in these benefits. However, accurately tracking and managing carbohydrate intake can be difficult and time-consuming. Our goal is to simplify this process and make it easier for everyone to achieve a happier, healthier, & more sustainable lifestyle.
 			</p>
