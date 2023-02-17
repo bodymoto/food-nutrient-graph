@@ -1,12 +1,15 @@
-## A web app for Keto enthusiests.
-### Currently in development.
+## About
 
-*"Introducing the Keto Dieting Web App - a revolutionary platform that streamlines the keto diet journey. Built with the latest web technologies, including JavaScript, Lit Framework, Webpack, Babel, Open-WC and Web Test Runner, this app offers an intuitive and user-friendly interface.*
+The keto food graph is a single page website built using Google's Lit framework. It takes an array of objects and dynamically generates an HTML table that can be filtered by 'group' property, or sorted by each table head to either ascending order (low-high), or descending order (high-low).
 
-*Our web app leverages the power of web components, offering a React-like component architecture, where each component is isolated and can be easily modified. The HTML templates are rendered and the Shadow DOM manipulated, ensuring a smooth and efficient user experience.*
+## Why use Lit?
 
-*With 5 separate components and 7 files in total, this project has 100% testing coverage, ensuring the highest level of reliability and functionality. The app serves up a comprehensive table of food items, allowing users to sort by food category or by column, making meal planning a breeze.*
+Lit is a boiler plate framework for open web components which makes the codebase framework agnostic. This allows developers to create reusable, modular components that can be used across different projects and platforms because web components are built using standard web technologies such as HTML, CSS, and JavaScript, and they do not require any specific framework or library to function.
 
-*Currently under construction, the project is ongoing, with plans to add proper styling and make it available on AWS for wider accessibility. So, whether you're a seasoned keto dieter or just starting out, our Keto Dieting Web App is here to help simplify your journey and achieve your goals."*
+## How to view the site:
 
-<sub>This description was written by GPT (Generative Pre-training Transformer) model created by OpenAI. No specific version number has been provided at this time. ChatGPT Jan 30th, 2023 release.</sub>
+1. First, clone the repo.
+2. Install the project dependencies with "npm install"
+3. Install Python onto your local machine.
+4. Create a local http server environment with "npm run web"
+5. Navigate to, "http://localhost:8000/" within a browser.
