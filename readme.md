@@ -11,5 +11,6 @@ Lit is a boiler plate framework for open web components which makes the codebase
 1. First, clone the repo.
 2. Install the project dependencies with ```npm install```
 3. Install Python onto your local machine.
-4. Create a local http server environment with ```npm run web```
-5. Navigate to, ```http://localhost:8000/``` within a browser.
+4. Package it with ```npm run build```
+5. Create a local http server environment with ```npm run web```
+6. Navigate to, ```http://localhost:8000/``` within a browser.
