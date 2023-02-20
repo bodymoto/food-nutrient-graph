@@ -1,3 +1,6 @@
+# 20/02/2023 Update
+I've been enjoying learning how to use Lit and working on this project. Unfortunately, I find that using a graph isn't much fun from a user's perspective. For now I am halting my direct focus on this particular repo in favor of planning out a better UX. I learned a lot from these developments, both technical and personal, and I'm looking forward to what the future holds.
+
 ## About
 
 The keto food graph is a single page website built using Google's Lit framework. It takes an array of objects and dynamically generates an HTML table that can be filtered by 'group' property, or sorted by each table head to either ascending order (low-high), or descending order (high-low).
