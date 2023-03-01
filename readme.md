@@ -1,6 +1,6 @@
 ## About
 
-The keto food graph is a single page website built using Google's Lit framework. It takes an array of objects and dynamically generates an HTML table that can be filtered by 'group' property, or sorted by each table head to either ascending order (low-high), or descending order (high-low).
+The nutrition graph is a single page website built using Google's Lit framework. It takes an array of objects and dynamically generates an HTML table that can be filtered by **'group'** property, or sorted by each table head to either **ascending order** (low-high), or **descending order** (high-low).
 
 ## Why use Lit?
 
