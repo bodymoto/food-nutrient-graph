@@ -16,4 +16,4 @@ Lit is a boiler plate framework for open web components which makes the codebase
 6. Navigate to, ```http://localhost:8000/``` within a browser.
 7. The site should be viewed in 1204x width or higher resolution. It has not been optimized for smaller screen sizes.
 
-<img src="../../blob/main/project-ss.png" height=1051 width=640 />
+<img src="../../blob/main/project-ss.png" />
