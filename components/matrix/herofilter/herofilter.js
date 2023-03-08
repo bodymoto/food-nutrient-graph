@@ -1,6 +1,5 @@
 import { LitElement, html, css } from 'lit';
 import { FilterGroupElement } from './filtergroup/filtergroup.js';
-import { SearchElement } from './search/search.js';
 
 export class HeroFilterElement extends LitElement {
 
@@ -74,7 +73,6 @@ export class HeroFilterElement extends LitElement {
 
 	render() {
 		return html`
-			<search-element></search-element>
 			${
 				this.foodGroups.map((item) => {
 					return html`
