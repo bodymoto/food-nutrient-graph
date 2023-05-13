@@ -1,5 +1,3 @@
-## About
-
 A nutrition graph, originally inspired to help aid in keto dieting.<br/>
 The JavaScript dynamically renders the HTML template based on an array of data.<br/>
 Supports filtering by food group, or sorting by food data categories in either ascending (low-high) or descending (high-low) order.<br/>
