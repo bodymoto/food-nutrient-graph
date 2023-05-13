@@ -1,19 +1,28 @@
 ## About
 
-The nutrition graph is a single page website built using Google's Lit framework. It takes an array of objects and dynamically generates an HTML table that can be filtered by **'group'** property, or sorted by each table head to either **ascending order** (low-high), or **descending order** (high-low).
+A nutrition graph, originally inspired to help aid in keto dieting.<br/>
+The JavaScript dynamically renders the HTML template based on an array of data.<br/>
+Supports filtering by food group, or sorting by food data categories in either ascending (low-high) or descending (high-low) order.<br/>
+<br/>
+My first **Lit** project, using web component architecture (identical principle to React components).<br/>
+<br/>
+Learning Lit had a challenging learning curve as my first framework development, but a complete blast!
 
-## Why use Lit?
+### PREVIEW:
 
-Lit is a boiler plate framework for open web components which makes the codebase framework agnostic. This allows developers to create reusable, modular components that can be used across different projects and platforms because web components are built using standard web technologies such as HTML, CSS, and JavaScript, and they do not require any specific framework or library to function.
+**INSTALL PACKAGES:**
+```npm i```
 
-## How to view the site:
+**RUN WEBPACK:**
+```npm run build```
 
-1. First, clone the repo.
-2. Install the project dependencies with ```npm install```
-3. Install Python onto your local machine.
-4. Bundle it with ```npm run build```
-5. Create a local http server environment with ```npm run web```
-6. Navigate to, ```http://localhost:8000/``` within a browser.
-7. The site should be viewed in 1204x width or higher resolution. It has not been optimized for smaller screen sizes.
+**RUN LOCAL PYTHON WEBSERVER:**
+```npm run web```
 
+**VISIT:**
+```http://localhost:8000/```
+
+## BEST VIEWED IN 1204x RESOLUTION. PROJECT NOT OPTIMIZED FOR SMALLER SCREENS!!
+
+**PROJECT SCREENSHOT:**<br/><br/><br/>
 <img src="../../blob/main/project-ss.png" alt="A screenshot of food graph project" />
