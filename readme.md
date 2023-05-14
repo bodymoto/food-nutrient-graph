@@ -3,8 +3,10 @@ The JavaScript dynamically renders the HTML template based on an array of data.<
 Supports filtering by food group, or sorting by food data categories in either ascending (low-high) or descending (high-low) order.<br/>
 <br/>
 My first **Lit** project, using web component architecture (identical principle to React components).<br/>
+My first **TESTED** project, using Open-WC and Web Test Runner, as recommended by the Lit documentation.<br/>
+To launch the test suite, run: ```npm run test```
 <br/>
-Learning Lit had a challenging learning curve as my first framework development, but a complete blast!
+Despite a challenging learning curve this one was a complete blast!
 
 ### PREVIEW:
 
