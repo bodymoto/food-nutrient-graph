@@ -5,7 +5,7 @@ Supports filtering by food group, or sorting by food data categories in either a
 My first **Lit** project, using web component architecture (identical principle to React components).<br/>
 My first **TESTED** project, using Open-WC and Web Test Runner, as recommended by the Lit documentation.<br/>
 To launch the test suite, run: ```npm run test```
-<br/>
+<br/><br/>
 Despite a challenging learning curve this one was a complete blast!
 
 ### PREVIEW:
