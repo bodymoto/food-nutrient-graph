@@ -1,5 +1,5 @@
 A nutrition graph.<br/>
-Filtering by food group, and sort each column by either ascending or descending order (low-high)(high-low).<br/>
+Choose to filter by food group, and sort each column by either ascending or descending order (low-high)(high-low).<br/>
 Originally inspired to help aid in keto dieting.<br/>
 Powered by Web Components.<br/>
 
