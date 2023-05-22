@@ -1,9 +1,7 @@
-A nutrition graph, originally inspired to help aid in keto dieting.<br/>
-The JavaScript dynamically renders the HTML template based on an array of data.<br/>
-Supports filtering by food group, or sorting by food data categories in either ascending (low-high) or descending (high-low) order.<br/>
-<br/>
-Powered by **LIT**<br/>
-**TESTED** using Open-WC and Web Test Runner<br/>
+A nutrition graph.<br/>
+Filtering by food group, and sort each column by either ascending or descending order (low-high)(high-low).<br/>
+Originally inspired to help aid in keto dieting.<br/>
+Powered by Web Components.<br/>
 
 ### PREVIEW:
 
