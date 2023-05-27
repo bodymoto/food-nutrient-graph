@@ -1,23 +1,19 @@
-A nutrition graph.<br/>
-The user may filter foods by food category, and sort each column of data by either ascending or descending order (low-high)(high-low).<br/>
-Powered by Web Components.<br/>
-A project inspired by a desire to aid in keto dieting, and help mitigate related health risks.<br/>
+Explore the power of nutrition with our interactive nutrition graph. Filter and sort foods by category and data columns, all powered by Web Components.<br/>
+This project aims to support keto dieting and promote better health outcomes.<br/>
 
-### PREVIEW:
-
-**INSTALL PACKAGES:**
+**(1) INSTALL IT:**
 ```npm i```
 
-**RUN WEBPACK:**
+**(2) BUILD IT:**
 ```npm run build```
 
-**RUN LOCAL PYTHON WEBSERVER:**
+**(3) RUN IT:**
 ```npm run web```
 
-**VISIT:**
+**(4) VISIT IT:**
 ```http://localhost:8000/```
 
-**BEST VIEWED WITH A DESKTOP RES > 1200 RESOLUTION.**<br/>
+**BEST VIEWED IN RESOLUTION > 1200 WIDTH**<br/>
 
-**PROJECT SCREENSHOT:**<br/><br/><br/>
+**VIEW IT (PROJECT SCREENSHOT BELOW)**<br/><br/><br/>
 <img src="../../blob/main/project-ss.png" alt="A screenshot of food graph project" />
