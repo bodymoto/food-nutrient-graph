@@ -15,5 +15,6 @@ This project aims to support keto dieting and promote better health outcomes.<br
 
 **BEST VIEWED IN RESOLUTION > 1200 WIDTH**<br/>
 
-**VIEW IT (PROJECT SCREENSHOT BELOW)**<br/><br/><br/>
+**VIEW IT (SCREENSHOT PROVIDED BELOW):**<br/><br/><br/>
+
 <img src="../../blob/main/project-ss.png" alt="A screenshot of food graph project" />
