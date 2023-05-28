@@ -1,4 +1,4 @@
-Explore the power of nutrition. Filter and sort foods by category and data columns, all powered by Web Components.<br/>
+Explore the many categories of nutrition. Filter and sort foods by category and data columns, all powered by Web Components.<br/>
 This project aims to support keto dieting and promote better health outcomes.<br/>
 
 **(1) INSTALL IT:**
