@@ -4,11 +4,11 @@ This project aims to support keto dieting and promote better health outcomes.<br
 **(1) INSTALL IT:**
 ```npm i```
 
-**(2) BUILD IT:**
-```npm run build```
-
-**(3) VIEW TEST SUITE:**
+**(2) VIEW TEST SUITE:**
 ```npm run test```
+
+**(3) BUILD IT:**
+```npm run build```
 
 **(4) RUN IT:**
 ```npm run web```
