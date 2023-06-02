@@ -7,10 +7,13 @@ This project aims to support keto dieting and promote better health outcomes.<br
 **(2) BUILD IT:**
 ```npm run build```
 
-**(3) RUN IT:**
+**(3) VIEW TEST SUITE:**
+```npm run test```
+
+**(4) RUN IT:**
 ```npm run web```
 
-**(4) VISIT IT:**
+**(5) VISIT IT:**
 ```http://localhost:8000/```
 
 **BEST VIEWED IN RESOLUTION > 1200 WIDTH**<br/>
