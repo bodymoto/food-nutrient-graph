@@ -1,4 +1,4 @@
-A food nutrient graph.<br/>
+An interactable nutrient graph.<br/>
 <br/>
 Filter by food category *(13 categories to choose from)*<br/>
 Filter the nutrient column that interests you *(ie: vitamin A, protein, calcium, etc)* by either ascending or descending order<br/>
