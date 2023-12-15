@@ -1,3 +1,8 @@
+A food nutrient graph.
+Filter by food category, & filter nutrient columns (pick from 200+), & calculate your total nutrition including both macronutrients & micronutrients.
+JavaScript, Lit framework, Web components, Babel, Rollup, Firebase
+Data-structures, component-architecture, shadow DOM, mobile responsive 
+
 Explore the many categories of nutrition. Filter and sort foods by category and data columns, all powered by Web Components.<br/>
 This project aims to support keto dieting and promote better health outcomes.<br/>
 
