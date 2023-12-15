@@ -1,5 +1,5 @@
 A food nutrient graph.
-Filter by food category, & filter nutrient columns (pick from 200+), & calculate your total nutrition including both macronutrients & micronutrients.
+Filter by food category (13 choices), & filter nutrient columns (pick from 200+), & calculate your total nutrition including both macronutrients & micronutrients.
 JavaScript, Lit framework, Web components, Babel, Rollup, Firebase
 Data-structures, component-architecture, shadow DOM, mobile responsive 
 
