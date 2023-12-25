@@ -1,12 +1,11 @@
-An interactable nutrient graph.<br/>
+An interactable food nutrient graph. Designed with the intention to assist with Keto dieting & to better understand a diet's nutrient consumption.<br/>
+Narrow results by filtering food options by food category *(ie; vetegables, fruits, meats, etc,.)*<br/>
+Discover nutrient rich foods by filtering a column of interest by either ascending or descending order *(ie: vitamin A, protein, calcium, etc.,)* <br/>
+200+ total food options across 13x categories.<br/>
+20+ total nutrients for each food.<br/>
 <br/>
-Filter by food category *(13 categories to choose from)*<br/>
-Filter the nutrient column that interests you *(ie: vitamin A, protein, calcium, etc)* by either ascending or descending order<br/>
-20+ different nutrients for each food<br/>
-200+ total food choices<br/>
-<br/>
-JavaScript, Lit framework, Web components, Babel, Webpack<br/>
-Open-WC & Web Test Runner unit test coverage written for 100% of codebase<br/>
+Open-WC/Web Test Runner unit tests covering 100% of codebase.<br/>
+JavaScript · Lit framework · Web components · Babel · Webpack<br/>
 <hr/>
 <br/>
 
