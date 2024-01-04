@@ -4,7 +4,7 @@ An interactable food nutrient graph. Designed with the intention to assist with 
 · 200+ total food options across 13x categories.<br/>
 · 20+ total nutrients for each food.<br/>
 <br/>
-*Open-WC/Web Test Runner unit **tests covering 100%** of codebase.*<br/>
+*Open-WC/Web Test Runner **unit tests covering 100%** of codebase.*<br/>
 *JavaScript · Lit framework · Web components · Babel · Webpack*<br/>
 <hr/>
 <br/>
